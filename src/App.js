@@ -45,7 +45,6 @@ function App() {
     startSelectedLesson,
   } = useLog();
   const log = showLog();
-  // const appName = 'anywhere-physiology1'
   return (
     <>
       <Text
