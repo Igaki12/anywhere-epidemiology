@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/anywhere-epidemiology/static/css/main.6180b9dc.css",
+    "main.js": "/anywhere-epidemiology/static/js/main.2a79a143.js",
+    "static/media/titleImg.png": "/anywhere-epidemiology/static/media/titleImg.e633e13be9a33b2521a8.png",
+    "index.html": "/anywhere-epidemiology/index.html",
+    "main.6180b9dc.css.map": "/anywhere-epidemiology/static/css/main.6180b9dc.css.map",
+    "main.2a79a143.js.map": "/anywhere-epidemiology/static/js/main.2a79a143.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6180b9dc.css",
+    "static/js/main.2a79a143.js"
+  ]
+}
