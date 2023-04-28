@@ -317,7 +317,7 @@ export const useQuestionList = () => {
           detailInfo: '4/28',
           questionImg: [],
           questionSentence:
-            '2群の平均値の差の検定について、誤りはどれか          ',
+            '2群の平均値の差の検定について、誤りはどれか       ',
           answerImg: [],
           choices: [
             '有意な結果は、偶然誤差では説明のつかない差があることを示唆している',
@@ -361,7 +361,7 @@ export const useQuestionList = () => {
           ],
           answer: '回帰係数はー１から＋１の値をとる',
           commentary:
-            '-1~+1の値をとるのは相関係数correlation codificient。reglaiton codeficient。回帰係数は傾きを表している。決定係数は従属変数が独立変数の何パーセントかを表す係数。相関係数は変わらないが、回帰係数はこの場合変化する。相関係数と回帰係数を区別してください。',
+            '-1~+1の値をとるのは相関係数correlation coefficient。回帰係数：regression coefficient。回帰係数は傾きを表している。決定係数は従属変数が独立変数の何パーセントかを表す係数。相関係数は変わらないが、回帰係数はこの場合変化する。相関係数と回帰係数を区別することが大切。',
         },
         {
           detailInfo: '4/28',
