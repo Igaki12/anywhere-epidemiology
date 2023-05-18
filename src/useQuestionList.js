@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
-// import from './img/answer/.png'
+// import A from './img/answer/.png'
+
 
 export const useQuestionList = () => {
     const appName = 'anywhere-epidemiology'
@@ -386,7 +387,43 @@ export const useQuestionList = () => {
                 commentary: 'historical cohort study。前向きコホート研究は現在から観察を開始するコホート研究。歴史的コホート研究は過去から過去の研究。横断研究は曝露とアウトカムが同時期。ケースシリーズ研究は対象者をグループ分けして関係を調べる研究。歴史的コホート研究は研究倫理（対象者のインフォームドコンセントを直接得ることができない場合がある）に問題があり、オプトアウト（あらかじめホームページに調査をする旨を記載しておく）などの配慮が求められる。',
             },
 
-                // {
+                {
+                  detailInfo: '5/12',
+                  questionImg: [],
+                  questionSentence:
+                    '「一般内科医の性別と緊急入院患者の死亡率/再入院率」の関連において、考えられる交絡因子を、患者側の要因、医師側の要因に分けて、できるだけ多く挙げてください。 ',
+                  answerImg: [],
+                  answer: '患者側：年齢・性別・人種・初期診断名・併存疾患・世帯収入・薬剤使用。　病院要因：各病院ID。　医師要因：医師年齢・卒業大学・卒業プログラム（MDかDOか）',
+                  commentary: '主治医の割り当てに何らかのルールがある場合は、一般内科医の力量に男女差がなかったとしてもアウトカムが変わる可能性がある→患者側・病院側の交絡因子。その他、性別による差ではなく医師の年齢・大学などによる差によってアウトカムが変化している可能性がある→医師側の交絡因子',
+                },
+                {
+                    detailInfo: '5/12',
+                    questionImg: [],
+                    questionSentence:
+                      '「一般内科医の性別と緊急入院患者の死亡率/再入院率」の関連において、考えられる中間因子を挙げてください。',
+                    answerImg: [],
+                    answer: '一年あたりの担当患者数・入院期間・退院/転院先',
+                    commentary: 'これらの要素は医師の性別が原因で変化し、最終的にアウトカムに影響を及ぼす可能性のある中間因子である。',
+                  },
+                //   {
+                //     detailInfo: '5/12',
+                //     questionImg: [],
+                //     questionSentence:
+                //       '',
+                //     answerImg: [],
+                //     answer: '',
+                //     commentary: '',
+                //   },
+                //   {
+                //     detailInfo: '5/12',
+                //     questionImg: [],
+                //     questionSentence:
+                //       '',
+                //     answerImg: [],
+                //     answer: '',
+                //     commentary: '',
+                //   },
+                                // {
                 //   detailInfo: '',
                 //   questionImg: [],
                 //   questionSentence:
