@@ -1,7 +1,9 @@
 import {
     useState
 } from 'react'
+import question05192 from './img/question/question05192.png';
 import question0519 from './img/question/question0519.png';
+
 // import A from './img/answer/.png'
 
 
@@ -457,8 +459,32 @@ export const useQuestionList = () => {
                     commentary: '集団寄与危険割合は{P(RR-1)} / {P(RR-1) + 1}となる。このタイプの問題はAの面積を求めることができれば解くことができる。Aの面積はP * (RR-1)なので、A+B+Cはさらに1を足した値となり、集団寄与危険割合はA/A+B+Cなので、求められる。具体的な死亡率が分かっていなくても、相対危険が先行論文などで判明していれば、曝露者の割合だけ調べれば集団寄与危険割合を求めることができるという点が重要。',
                 },
 
+                {
+                    detailInfo: '5/19　2限目',
+                    questionImg: [question05192],
+                    questionSentence: 'この症例対照研究において、症例群における曝露オッズを求めよ　小数第３位は四捨五入して、小数第２位までの数値で答えてください。',
+                    answerImg: [],
+                    answer: '7.65',
+                    commentary: '症例は膵臓癌ありの人で、対照は膵臓癌なしの人。曝露群はコーヒー飲む人で、非曝露群はコーヒー飲まない人。症例群の中で曝露オッズを求めるので、153/20 = 7.65。間違いで多かったのは曝露群の中で有病オッズを求めてしまった解答。',
+                },
+                {
+                    detailInfo: '5/19　2限目',
+                    questionImg: [question05192],
+                    questionSentence: 'この症例対照研究において、対照群における曝露オッズを求めよ。　小数第３位は四捨五入して、小数第２位までの数値で答えてください。',
+                    answerImg: [],
+                    answer: '3.08',
+                    commentary: '対照群：膵臓癌なしの人の中で曝露オッズを求めるので、271/88 = 3.07955...',
+                },
+                {
+                    detailInfo: '5/19　2限目',
+                    questionImg: [question05192],
+                    questionSentence: 'この症例対照研究において、オッズ比を求めよ。　小数第３位は四捨五入して、小数第２位までの数値で答えてください。',
+                    answerImg: [],
+                    answer: '2.48',
+                    commentary: '症例群の曝露オッズ / 対照群の曝露オッズ　で求める。',
+                },
                 //   {
-                //     detailInfo: '5/19',
+                //     detailInfo: '5/19　2限目',
                 //     questionImg: [],
                 //     questionSentence:
                 //       '',
