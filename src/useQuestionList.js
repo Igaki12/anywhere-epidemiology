@@ -545,7 +545,7 @@ export const useQuestionList = () => {
                     questionSentence: '無作為化試験の結果、健康対象者に対するアスピリンの有効性は、540人年の投与によって、１件の心筋梗塞を予防する効果に相当することが分かった。この指標を何と呼ぶか。英語で答えよ（すべて小文字、略語はダメ）',
                     answerImg: [],
                     answer: 'number needed to treat',
-                    commentary: '',
+                    commentary: 'NNT。小さい方が良い治療である。計算方法も大事',
                 },
                 {
                     detailInfo: '5/26 2限目',
@@ -553,7 +553,7 @@ export const useQuestionList = () => {
                     questionSentence: 'Intention to treat analysisの対義語となる分析方法を英語で記載せよ（すべて小文字）',
                     answerImg: [],
                     answer: 'per protocol analysis',
-                    commentary: '',
+                    commentary: 'intention:企図、治療しようという意図についての分析。割り付けを守って分析するので、遵守しなかったとしても結果に含む。こちらが標準的な分析。一方でper protocol analysisは遵守した人についてのみの分析になるので、バイアスが生じやすい（一般的に遵守する人は治療予後が良い）',
                 },
                 {
                     detailInfo: '5/26 2限目',
@@ -562,7 +562,7 @@ export const useQuestionList = () => {
                     choices: ["観察研究である", "介入の有無は、対象者の意思を尊重して決める", "プライマリアウトカムは原則１つである", "対象者へ介入内容をマスキングすることによってconcealmentは保持される", "ITT分析は介入効果を過大評価する", "研究開始前にプロトコールを公表する ", "充分なサンプルの無作為割り付けは、測定できない交絡因子の影響も調整する"],
                     answerImg: [],
                     answer: 'プライマリアウトカムは原則１つである。　研究開始前にプロトコールを公表する。　充分なサンプルの無作為割り付けは、測定できない交絡因子の影響も調整する',
-                    commentary: '',
+                    commentary: '無作為化比較試験RCTは介入試験で、割り付けは完全にランダムで行われる。concealment(割り付けの内容を募集担当者から隠す→完全にランダムな割り付けを行うため)とmasking(患者・医者・分析者から割り付け内容を隠す→プラセボ効果などを均等にするため)は区別する必要がある。現在は中心割り付けcentral randomizationによって完全にランダムな割り付けを実現している。ITT分析は介入効果を過小評価する傾向があり、逆にPP分析は介入効果を過大評価する傾向がある。RCTには厳格な制度がある。RCTは未知の交絡因子についても均等であることを証明できるのが、コホート研究より優れている点',
                 },
                 {
                     detailInfo: '5/26 2限目',
@@ -571,7 +571,7 @@ export const useQuestionList = () => {
                     answerImg: [],
                     choices: ["Abstract", "Introduction", "Methods", "Results", "Discussion"],
                     answer: 'Methods , Results',
-                    commentary: '',
+                    commentary: 'Abstract：要約はその後の内容をまとめたものなので、主観的な内容も含まれる',
                 },
                 {
                     detailInfo: '5/26 2限目',
@@ -580,7 +580,7 @@ export const useQuestionList = () => {
                     answerImg: [],
                     choices: ["Abstract", "Introduction", "Methods", "Results", "Discussion"],
                     answer: 'Methods',
-                    commentary: '',
+                    commentary: '理論的な必要サンプル数はMethodsに記載し、実際に集まったサンプル数はResultsに記載する',
                 },
                 {
                     detailInfo: '5/26 2限目',
@@ -598,7 +598,7 @@ export const useQuestionList = () => {
                     answerImg: [],
                     choices: ["いったん研究への参加に同意したら、最後まで研究に参加してください", "研究参加を拒否しても、治療における不利益はありません", "研究参加中は、介入内容をお伝えすることはできません", "書面で、同意を確認いたします", "研究倫理に関するヘルシンキ宣言を遵守して実施します", "不明な点があれば、何でも質問してください"],
                     answer: 'いったん研究への参加に同意したら、最後まで研究に参加してください',
-                    commentary: '',
+                    commentary: 'いつでも離脱できます、と言わないといけない。離脱した後の対象者には、治療内容を公開しても良い。RCTには厳格なルールが定められているので、違反すると大問題となる。',
                 },
                 // {
                 //   detailInfo: '',
