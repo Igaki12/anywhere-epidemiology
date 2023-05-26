@@ -5,6 +5,8 @@ import question05192 from './img/question/question05192.png';
 import question0519 from './img/question/question0519.png';
 import answer05191 from './img/answer/answer05191.png';
 import answer05190 from './img/answer/answer05190.png';
+import question0526 from './img/question/question0526.png';
+
 
 
 // import A from './img/answer/.png'
@@ -529,6 +531,75 @@ export const useQuestionList = () => {
                     commentary: '略語はRCT。ランダム化比較試験、無作為化比較試験とも。今回のような研究ではマスキングできる。仮に生理食塩水を注射しない場合はマスキング出来ないので、オープンラベル試験となる。マスキングには主に3通りのマスキングがある→Single Blind,Double Blind,Triple Blind(被験者・医者・分析者へのマスキング)。これらのマスキングはバイアスを減らすために行う。誰に対してマスキングしたかを明確にした方が良い。',
                 },
 
+                {
+                    detailInfo: '5/26 1限目',
+                    questionImg: [question0526],
+                    questionSentence: '右の表は、重症冠動脈疾患に対する、経皮的冠動脈インターベンション（PCI）と冠動脈バイパス術（CABG)の治療効果を複合アウトカム、構成アウトカムに分けて示した研究結果である。もし自分自身がこの研究結果に基づいて、どちらかの治療を受けなければならないとすると、以下のどちらを選択しますか。また、選択した理由を記述してください',
+                    answerImg: [],
+                    answer: '経皮的冠動脈インターベンション（PCI） 複合アウトカムはCABGの方が有意にリスクが低いが、PCIの方はそのほとんどがやり直しであり、それ以外のアウトカムに限定するとCABGの優位性は判断できない。むしろ、StrokeはPCIの方が有意にリスクが小さいと言い切れるが、DeathとMyocardial Infarctionsの観点でCABGの方が有意にリスクが低いとは言い切れない（95%信頼区間が1をまたいでいる）ため、やり直し以外のアウトカムに限定するとPCIのほうがリスクが高いといえる。また、CABGは大手術となるためやり直しの判断をしにくいという観点も考慮した。いずれにしても、リスクが変わらないであれば低侵襲なPCIを選択する。',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '無作為化試験の結果、健康対象者に対するアスピリンの有効性は、540人年の投与によって、１件の心筋梗塞を予防する効果に相当することが分かった。この指標を何と呼ぶか。英語で答えよ（すべて小文字、略語はダメ）',
+                    answerImg: [],
+                    answer: 'number needed to treat',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: 'Intention to treat analysisの対義語となる分析方法を英語で記載せよ（すべて小文字）',
+                    answerImg: [],
+                    answer: 'per protocol analysis',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '無作為化比較試験について正しい説明をすべて選べ',
+                    choices: ["観察研究である", "介入の有無は、対象者の意思を尊重して決める", "プライマリアウトカムは原則１つである", "対象者へ介入内容をマスキングすることによってconcealmentは保持される", "ITT分析は介入効果を過大評価する", "研究開始前にプロトコールを公表する ", "充分なサンプルの無作為割り付けは、測定できない交絡因子の影響も調整する"],
+                    answerImg: [],
+                    answer: 'プライマリアウトカムは原則１つである。　研究開始前にプロトコールを公表する。　充分なサンプルの無作為割り付けは、測定できない交絡因子の影響も調整する',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '下記の論文構成のうち、本研究についての客観的事実のみを記載すべきセクションはどれか。すべて選べ。',
+                    answerImg: [],
+                    choices: ["Abstract", "Introduction", "Methods", "Results", "Discussion"],
+                    answer: 'Methods , Results',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '無作為化比較試験において、研究に必要な対象者数をどのように決定したかについて記載するのは、以下のどのセクションが最も適切か。',
+                    answerImg: [],
+                    choices: ["Abstract", "Introduction", "Methods", "Results", "Discussion"],
+                    answer: 'Methods',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '研究を行う目的について記載するのは、以下のどのセクションが最も適切か。',
+                    answerImg: [],
+                    choices: ["Introduction", "Methods", "Results", "Discussion"],
+                    answer: 'Introduction',
+                    commentary: '',
+                },
+                {
+                    detailInfo: '5/26 2限目',
+                    questionImg: [],
+                    questionSentence: '新薬Aは、動物実験で標準治療薬Bより優れた成績を示した。AとBの治療効果を比較する無作為化比較試験（二重盲検法）におけるインフォームドコンセントの内容として不適切なのはどれか。１つ選べ。                    ',
+                    answerImg: [],
+                    choices: ["いったん研究への参加に同意したら、最後まで研究に参加してください", "研究参加を拒否しても、治療における不利益はありません", "研究参加中は、介入内容をお伝えすることはできません", "書面で、同意を確認いたします", "研究倫理に関するヘルシンキ宣言を遵守して実施します", "不明な点があれば、何でも質問してください"],
+                    answer: 'いったん研究への参加に同意したら、最後まで研究に参加してください',
+                    commentary: '',
+                },
                 // {
                 //   detailInfo: '',
                 //   questionImg: [],
