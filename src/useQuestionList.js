@@ -6,6 +6,7 @@ import question0519 from './img/question/question0519.png';
 import answer05191 from './img/answer/answer05191.png';
 import answer05190 from './img/answer/answer05190.png';
 import question0526 from './img/question/question0526.png';
+import attendance0621 from './img/question/attendance0621.png';  
 
 
 
