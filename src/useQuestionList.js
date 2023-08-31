@@ -1108,7 +1108,7 @@ export const useQuestionList = () => {
           questionSentence:
             '新型コロナウィルス感染症罹患者200名と、同地域住民から抽出した非罹患者600人に、過去1週間のカラオケ店利用の有無を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
             choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [],
+          answerImg: [answer08313,answer08314],
           answer: 'Case control study',
           commentary: '症例対象研究。まず対象を選ぶときにcase(患者）とcontrol(病気になっていない人）を決めてから、それぞれについて暴露因子（カラオケ店）を調べる研究。症例対象研究のポイントとしては暴露とアウトカムの関係（オッズ比）を考えるのが大切。',
         },
@@ -1118,7 +1118,7 @@ export const useQuestionList = () => {
           questionSentence:
             '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
             choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [],
+          answerImg: [answer08311],
           answer: 'Cross-sectional study',
           commentary: '横断的な（時間に対して断面的な）暴露とアウトカムの関係を調べる調査研究。喫煙の状況を暴露とアウトカムですが、これを同じ時点で調査しているので、横断研究と分類される。無作為抽出RCTではない。RCTはそもそも介入研究。治療効果の比較などに使われる。',
         },
@@ -1128,7 +1128,7 @@ export const useQuestionList = () => {
           questionSentence:
             '問３の研究参加者のうち、2023年4月の時点でうつ症状を有さない者3920人について、喫煙あり群（500 人）と喫煙なし群（3420人）を2030年まで観察し、両群におけるうつ病の罹患を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
             choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [],
+          answerImg: [answer08312],
           answer: 'Prospective cohort study',
           commentary: '観察スタートしている時点でまだ罹患していない人を追跡調査しているので、この研究はProspective 。前向きコホート研究の強みは、因果関係がある程度はっきりすること。時間的に原因→結果を証明できるため。',
         },
@@ -1158,7 +1158,7 @@ export const useQuestionList = () => {
           questionSentence:
             '1980年から現在までに出版された降圧治療の有無と脳卒中死亡率に関する無作為化比較試験について、適格基準に合致する研究を網羅的に検索し、各研究の結果をメタ解析によって統合した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
             choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [],
+          answerImg: [answer08316],
           answer: 'Systematic review',
           commentary: 'ほとんどの人が正解。この対義語はnarrative review。もおうら的検索をせず、著者が個人的に選んだ研究に対してのみメタ解析を行う。',
         },
@@ -1168,7 +1168,7 @@ export const useQuestionList = () => {
           questionSentence:
             'COVID-19の感染歴のない男女20000人を、無作為に2群に割り付け、介入群にはmRNAワクチンを投与し、対照群には生理食塩水を投与し、接種後2か月間の罹患率を2群間で比較した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
             choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [],
+          answerImg: [answer08315],
           answer: 'Randomized Controlled study',
           commentary: '',
         },
