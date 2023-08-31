@@ -7,6 +7,12 @@ import answer05191 from './img/answer/answer05191.png';
 import answer05190 from './img/answer/answer05190.png';
 import question0526 from './img/question/question0526.png';
 import attendance0621 from './img/question/attendance0621.png';
+import answer08316 from './img/answer/answer08316.png';
+import answer08315 from './img/answer/answer08315.png';
+import answer08314 from './img/answer/answer08314.png';
+import answer08313 from './img/answer/answer08313.png';
+import answer08312 from './img/answer/answer08312.png';
+import answer08311 from './img/answer/answer08311.png';
 
 
 
@@ -1045,59 +1051,53 @@ export const useQuestionList = () => {
         {
           detailInfo: '6/28 出席課題',
           questionImg: [],
-          questionSentence:
-            '生物濃縮が生じる条件として正しいのはどれか。',
-            choices:["熱で分解されやすい","光で分解されやすい","急性毒性が高い","水溶性である","脂溶性である"],
+          questionSentence: '生物濃縮が生じる条件として正しいのはどれか。',
+          choices: ["熱で分解されやすい", "光で分解されやすい", "急性毒性が高い", "水溶性である", "脂溶性である"],
           answerImg: [],
           answer: '脂溶性である',
           commentary: '生物濃縮というのは過去の公害の事例の原因物質に関連するものが多い。条件を理解する必要がある。熱で分解されにくい、光で分解されにくい（科学的に安定である）、急性毒性が低い（高いと生物が死んでしまうので食物連鎖に関わりにくくなり、生物濃縮されにくい）、脂溶性であると体の中に蓄積されやすい。',
         },
-                {
+        {
           detailInfo: '6/28 出席課題',
           questionImg: [],
-          questionSentence:
-            '環境基準の達成率が著しく低い大気汚染物質はどれか',
-            choices:["二酸化硫黄","一酸化炭素","光化学オキシダント","PM2.5","二酸化窒素"],
+          questionSentence: '環境基準の達成率が著しく低い大気汚染物質はどれか',
+          choices: ["二酸化硫黄", "一酸化炭素", "光化学オキシダント", "PM2.5", "二酸化窒素"],
           answerImg: [],
           answer: '光化学オキシダント',
           commentary: '光化学オキシダント。全然達成できていない。基準値どう考えて策定してんねやろ。近年達成されたものと、大昔から達成されてあるものの区別を。',
         },
-                {
+        {
           detailInfo: '6/28 出席課題',
           questionImg: [],
-          questionSentence:
-            '医療法について正しいのはどれか。すべて選べ。',
-            choices:["診療所は入院病床を有さない医療機関と定義されている","都道府県は医療計画は５年ごとに見直す","都道府県は基準診療所数を策定する","都道府県知事は医療施設に立ち入り検査を実施する","厚生労働大臣は特定機能病院を承認する"],
+          questionSentence: '医療法について正しいのはどれか。すべて選べ。',
+          choices: ["診療所は入院病床を有さない医療機関と定義されている", "都道府県は医療計画は５年ごとに見直す", "都道府県は基準診療所数を策定する", "都道府県知事は医療施設に立ち入り検査を実施する", "厚生労働大臣は特定機能病院を承認する"],
           answerImg: [],
           answer: '',
           commentary: '医療法は非常に重要。条文も読んでおくこと。19床以下であれば診療所。見直しは6年ごと。奈良医大も6年ごとに提出している。都道府県というのは、重要な疾患の医療を提供する体制を整える必要があり、基本病床数の設定によりこれをコントロールしている。診療所の解説については届出だけでOK。都道府県の知事の指示で保健所が立ち入り検査をし、安全な医療を保障している。地域医療指定病院と、特定機能病院は役割と、承認機関が異なるので注意。',
         },
-                {
+        {
           detailInfo: '6/28 出席課題',
           questionImg: [],
-          questionSentence:
-            '医療計画のいわゆる５事業にふくまれないのはどれか。１つ選べ。',
-            choices:["救急医療","災害時医療","僻地医療","周産期医療","精神科医療"],
+          questionSentence: '医療計画のいわゆる５事業にふくまれないのはどれか。１つ選べ。',
+          choices: ["救急医療", "災害時医療", "僻地医療", "周産期医療", "精神科医療"],
           answerImg: [],
           answer: '精神科医療',
           commentary: '精神科医療は５疾病に含まれる。おぼえなしゃーない。最低限ここは絶対書けと言われている、という意味で重要。都道府県が策定する。',
         },
-                {
+        {
           detailInfo: '6/28 出席課題',
           questionImg: [],
-          questionSentence:
-            '災害時医療について誤りはどれか。１つ選べ。',
-            choices:["DHEATは発災後48間以内に医療活動を行う","DMATの活動には広域医療搬送が含まれる","災害拠点病院は都道府県知事が指定する","トリアージタグが赤の患者を最優先に治療する","地域の健康危機には保健所が中心的役割を果たす"],
+          questionSentence: '災害時医療について誤りはどれか。１つ選べ。',
+          choices: ["DHEATは発災後48間以内に医療活動を行う", "DMATの活動には広域医療搬送が含まれる", "災害拠点病院は都道府県知事が指定する", "トリアージタグが赤の患者を最優先に治療する", "地域の健康危機には保健所が中心的役割を果たす"],
           answerImg: [],
           answer: '１が誤り',
           commentary: 'DMATが発災後48時間以内に活動する。DHEATは保健行政の支援を行う活動で、もう少し後の時期。トリアージタグは赤が最優先（黒はなくなっているので最優先ではない）。ガイドラインを厚労省が出している。こういう制度上のことは覚えるしかないが、できるだけ皆さんの将来と関係することを出題するので、覚えるように。',
         },
-                        {
+        {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '過去50年間の人口動態統計データに基づいて、総死亡に関する年齢調整死亡率の推移を明らかにした。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '過去50年間の人口動態統計データに基づいて、総死亡に関する年齢調整死亡率の推移を明らかにした。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [],
           answer: 'Descriptove epidemiologic study',
           commentary: '期末試験では疫学の配点が高い。その疫学の中で一番基本的な話が「研究の分類」。この研究はどういった研究ですかということがまず一番大事。研究の方法によって、研究の結果がどれだけ信頼できる結果なのかある程度わかる。研究の長所・短所、特に短所の把握が、研究結果を理解する上で重要になる。講義の一番最初の方にした話。調整の前のそう死亡率は上がっているのに、高齢化の影響を取り除くとそう死亡率が下がっているので、問題ではない→記述疫学に分類される。仮説がある研究を分析疫学と分類される。記述疫学では仮説なしに、事実を淡々と発表する記述的な（Descriptove）分析である。cohort studyでは暴露因子を明確にしないといけないが、今回は書かれていない。',
@@ -1105,19 +1105,17 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '新型コロナウィルス感染症罹患者200名と、同地域住民から抽出した非罹患者600人に、過去1週間のカラオケ店利用の有無を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
-          answerImg: [answer08313,answer08314],
+          questionSentence: '新型コロナウィルス感染症罹患者200名と、同地域住民から抽出した非罹患者600人に、過去1週間のカラオケ店利用の有無を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
+          answerImg: [answer08313, answer08314],
           answer: 'Case control study',
           commentary: '症例対象研究。まず対象を選ぶときにcase(患者）とcontrol(病気になっていない人）を決めてから、それぞれについて暴露因子（カラオケ店）を調べる研究。症例対象研究のポイントとしては暴露とアウトカムの関係（オッズ比）を考えるのが大切。',
         },
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [answer08311],
           answer: 'Cross-sectional study',
           commentary: '横断的な（時間に対して断面的な）暴露とアウトカムの関係を調べる調査研究。喫煙の状況を暴露とアウトカムですが、これを同じ時点で調査しているので、横断研究と分類される。無作為抽出RCTではない。RCTはそもそも介入研究。治療効果の比較などに使われる。',
@@ -1125,9 +1123,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。　この研究参加者のうち、2023年4月の時点でうつ症状を有さない者3920人について、喫煙あり群（500 人）と喫煙なし群（3420人）を2030年まで観察し、両群におけるうつ病の罹患を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。　この研究参加者のうち、2023年4月の時点でうつ症状を有さない者3920人について、喫煙あり群（500 人）と喫煙なし群（3420人）を2030年まで観察し、両群におけるうつ病の罹患を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [answer08312],
           answer: 'Prospective cohort study',
           commentary: '観察スタートしている時点でまだ罹患していない人を追跡調査しているので、この研究はProspective 。前向きコホート研究の強みは、因果関係がある程度はっきりすること。時間的に原因→結果を証明できるため。',
@@ -1135,9 +1132,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '全米の看護師から対象者を募集し、夜勤の有無を調査し、その後の乳がん罹患を観察している。観察開始時に尿検体を採取し、凍結保存していた。同研究参加者のうち、観察開始後20年間に乳がんを発症した150名と、発症しなかった300名の、観察開始時の尿検体を解凍し、尿中メラトニン代謝産物の濃度を測定し、メラトニンと乳がん罹患の関連を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '全米の看護師から対象者を募集し、夜勤の有無を調査し、その後の乳がん罹患を観察している。観察開始時に尿検体を採取し、凍結保存していた。同研究参加者のうち、観察開始後20年間に乳がんを発症した150名と、発症しなかった300名の、観察開始時の尿検体を解凍し、尿中メラトニン代謝産物の濃度を測定し、メラトニンと乳がん罹患の関連を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [],
           answer: 'nested case control study',
           commentary: '前向きコホート研究（暴露群それぞれのアウトカムを追跡調査する）。後半の話はcase control study（コホート研究の参加者の中で、ケースコントロール調査を行なっている）ため、nested case control study)case control studyではバイアスが問題となるが、前向きコホート研究とすることで、これを回避している。全員のメラトニンを測定することは費用面で困難であるため、凍結サンプルから450名のみを抜粋して調査している→case control studyの強み。',
@@ -1145,9 +1141,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '2015年国民健康・栄養調査に基づく47都道府県別のたんぱく質摂取量と、同年の47都道府県別の高齢者人口あたりの要介護者数の関連を検討した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '2015年国民健康・栄養調査に基づく47都道府県別のたんぱく質摂取量と、同年の47都道府県別の高齢者人口あたりの要介護者数の関連を検討した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [],
           answer: 'ecological study',
           commentary: '生態学的研究。暴露とアウトカムは同時であるが、一人一人の個別のデータにアプローチできていないため、cross-sectional studyではない。',
@@ -1155,9 +1150,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '1980年から現在までに出版された降圧治療の有無と脳卒中死亡率に関する無作為化比較試験について、適格基準に合致する研究を網羅的に検索し、各研究の結果をメタ解析によって統合した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '1980年から現在までに出版された降圧治療の有無と脳卒中死亡率に関する無作為化比較試験について、適格基準に合致する研究を網羅的に検索し、各研究の結果をメタ解析によって統合した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [answer08316],
           answer: 'Systematic review',
           commentary: 'ほとんどの人が正解。この対義語はnarrative review。もおうら的検索をせず、著者が個人的に選んだ研究に対してのみメタ解析を行う。',
@@ -1165,9 +1159,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            'COVID-19の感染歴のない男女20000人を、無作為に2群に割り付け、介入群にはmRNAワクチンを投与し、対照群には生理食塩水を投与し、接種後2か月間の罹患率を2群間で比較した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: 'COVID-19の感染歴のない男女20000人を、無作為に2群に割り付け、介入群にはmRNAワクチンを投与し、対照群には生理食塩水を投与し、接種後2か月間の罹患率を2群間で比較した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [answer08315],
           answer: 'Randomized Controlled study',
           commentary: '',
@@ -1175,9 +1168,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence:
-            '過去10年間に、奈良医大付属病院において、胃がんで腹腔鏡手術を行ったすべての患者のカルテ情報を収集し、入院時の喫煙の有無と、入院から退院までに要した日数の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。            ',
-            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          questionSentence: '過去10年間に、奈良医大付属病院において、胃がんで腹腔鏡手術を行ったすべての患者のカルテ情報を収集し、入院時の喫煙の有無と、入院から退院までに要した日数の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。            ',
+          choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [],
           answer: 'Retrospectove(Historical) cohort study',
           commentary: '後ろ向きコホート研究とは、研究する時点から過去に遡ってで０たを収集している（すでに収集されたでーたを使っている）尚且つ入院から退院まで観察したコホート研究である。Retrospective は調査項目の追加はできない（過去に存在しているカルテ情報に依存しているから）。皆さんが臨床で最初に行う可能性が高い研究。',
@@ -1186,9 +1178,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 授業中',
           questionImg: [],
-          questionSentence:
-            '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に注目するP: Patient(患者特性）を記載せよ',
-            // choices:["","","","",""],
+          questionSentence: '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に注目するP: Patient(患者特性）を記載せよ',
+          // choices:["","","","",""],
           answerImg: [],
           answer: '（例）高血圧を合併する高齢の2型糖尿病患者',
           commentary: 'その患者さんの情報を書けばいい。',
@@ -1196,9 +1187,8 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 授業中',
           questionImg: [],
-          questionSentence:
-            '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に着目するIntervention (介入や治療内容）を記載してください。　また、エビデンス検索の際に注目するC: control （対照）について記載せよ。上記の介入と比較可能な介入内容（もしくは治療なし）を記載してください',
-            // choices:["","","","",""],
+          questionSentence: '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に着目するIntervention (介入や治療内容）を記載してください。　また、エビデンス検索の際に注目するC: control （対照）について記載せよ。上記の介入と比較可能な介入内容（もしくは治療なし）を記載してください',
+          // choices:["","","","",""],
           answerImg: [],
           answer: '（例）I：積極的降圧療法。　対照群：通常の降圧療法',
           commentary: 'メトフォルミンの投与を行いながら降圧療法（運動指導や、降圧薬）を行う（併用）など、治療方法を具体的に書いてあればいい。対照群には降圧療法を行わないか、通常の降圧療法で140mmHg未満を目指す治療をかく。（参考）糖尿病でない一般的な場合は、脳心血管病や腎機能悪化を予防するために130/80mmHg(75歳未満)または140/90mmHg(75歳以上)を目標として降圧薬を使用する。糖尿病の場合は腎障害が起こりやすいため、これよりさらに厳格に血圧コントロールを行う必要がある。。',
@@ -1206,15 +1196,14 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 授業中',
           questionImg: [],
-          questionSentence:
-            '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に注目するO: outcome (結果）について記載してください。',
-            // choices:["","","","",""],
+          questionSentence: '下記の症例についての臨床課題を、文献検索のためにP (patient), I(Intervention), C (control), O (outcome)に整理する　症例：  65歳男性、既往歴　特になし、3年前に2型糖尿病と診断され、メトフォルミンの投与を受けている。HbA1cは6.5～7.0％で変動し、糖尿病性腎症、網膜症、神経症は認めない。二次性高血圧なし、BMI26.0、喫煙あり、総コレステロール値200mg/dl、HDLコレステロール値80mg/dl。診察室で測定した血圧は収縮期血圧156mmHg、拡張期血圧90mmHgであった。収縮期血圧の降圧目標をいくらにすべきが臨床課題である。　エビデンス検索の際に注目するO: outcome (結果）について記載してください。',
+          // choices:["","","","",""],
           answerImg: [],
           answer: '（例）心血管疾患死亡率の減少',
           commentary: '何を持って治療効果を比較するか。例えば血管疾患の罹患率、総死亡率、あるいは要介護なしの健康寿命でもOK。患者さんが何を目指して治療するかを書く。糖尿病の合併症の罹患率などでもいい。とにかく疾病の結果・頻度を表すことばをかく。治療内容を書いてはいけない。もう少し見直しておくように。',
         },
 
-                // {
+        // {
         //   detailInfo: '8/31 出席課題',
         //   questionImg: [],
         //   questionSentence:
