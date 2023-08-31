@@ -1092,8 +1092,109 @@ export const useQuestionList = () => {
           answer: '１が誤り',
           commentary: 'DMATが発災後48時間以内に活動する。DHEATは保健行政の支援を行う活動で、もう少し後の時期。トリアージタグは赤が最優先（黒はなくなっているので最優先ではない）。ガイドラインを厚労省が出している。こういう制度上のことは覚えるしかないが、できるだけ皆さんの将来と関係することを出題するので、覚えるように。',
         },
+                        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '過去50年間の人口動態統計データに基づいて、総死亡に関する年齢調整死亡率の推移を明らかにした。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Descriptove epidemiologic study',
+          commentary: '期末試験では疫学の配点が高い。その疫学の中で一番基本的な話が「研究の分類」。この研究はどういった研究ですかということがまず一番大事。研究の方法によって、研究の結果がどれだけ信頼できる結果なのかある程度わかる。研究の長所・短所、特に短所の把握が、研究結果を理解する上で重要になる。講義の一番最初の方にした話。調整の前のそう死亡率は上がっているのに、高齢化の影響を取り除くとそう死亡率が下がっているので、問題ではない→記述疫学に分類される。仮説がある研究を分析疫学と分類される。記述疫学では仮説なしに、事実を淡々と発表する記述的な（Descriptove）分析である。cohort studyでは暴露因子を明確にしないといけないが、今回は書かれていない。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '新型コロナウィルス感染症罹患者200名と、同地域住民から抽出した非罹患者600人に、過去1週間のカラオケ店利用の有無を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Case control study',
+          commentary: '症例対象研究。まず対象を選ぶときにcase(患者）とcontrol(病気になっていない人）を決めてから、それぞれについて暴露因子（カラオケ店）を調べる研究。症例対象研究のポイントとしては暴露とアウトカムの関係（オッズ比）を考えるのが大切。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '2023年4月に40歳以上のB市住民から無作為抽出した4000人を対象に、うつ症状の有無と喫煙状況を調査し、両者の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Cross-sectional study',
+          commentary: '横断的な（時間に対して断面的な）暴露とアウトカムの関係を調べる調査研究。喫煙の状況を暴露とアウトカムですが、これを同じ時点で調査しているので、横断研究と分類される。無作為抽出RCTではない。RCTはそもそも介入研究。治療効果の比較などに使われる。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '問３の研究参加者のうち、2023年4月の時点でうつ症状を有さない者3920人について、喫煙あり群（500 人）と喫煙なし群（3420人）を2030年まで観察し、両群におけるうつ病の罹患を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Prospective cohort study',
+          commentary: '観察スタートしている時点でまだ罹患していない人を追跡調査しているので、この研究はProspective 。前向きコホート研究の強みは、因果関係がある程度はっきりすること。時間的に原因→結果を証明できるため。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '全米の看護師から対象者を募集し、夜勤の有無を調査し、その後の乳がん罹患を観察している。観察開始時に尿検体を採取し、凍結保存していた。同研究参加者のうち、観察開始後20年間に乳がんを発症した150名と、発症しなかった300名の、観察開始時の尿検体を解凍し、尿中メラトニン代謝産物の濃度を測定し、メラトニンと乳がん罹患の関連を調査した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'nested case control study',
+          commentary: '前向きコホート研究（暴露群それぞれのアウトカムを追跡調査する）。後半の話はcase control study（コホート研究の参加者の中で、ケースコントロール調査を行なっている）ため、nested case control study)case control studyではバイアスが問題となるが、前向きコホート研究とすることで、これを回避している。全員のメラトニンを測定することは費用面で困難であるため、凍結サンプルから450名のみを抜粋して調査している→case control studyの強み。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '2015年国民健康・栄養調査に基づく47都道府県別のたんぱく質摂取量と、同年の47都道府県別の高齢者人口あたりの要介護者数の関連を検討した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'ecological study',
+          commentary: '生態学的研究。暴露とアウトカムは同時であるが、一人一人の個別のデータにアプローチできていないため、cross-sectional studyではない。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '1980年から現在までに出版された降圧治療の有無と脳卒中死亡率に関する無作為化比較試験について、適格基準に合致する研究を網羅的に検索し、各研究の結果をメタ解析によって統合した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Systematic review',
+          commentary: 'ほとんどの人が正解。この対義語はnarrative review。もおうら的検索をせず、著者が個人的に選んだ研究に対してのみメタ解析を行う。',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            'COVID-19の感染歴のない男女20000人を、無作為に2群に割り付け、介入群にはmRNAワクチンを投与し、対照群には生理食塩水を投与し、接種後2か月間の罹患率を2群間で比較した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Randomized Controlled study',
+          commentary: '',
+        },
+        {
+          detailInfo: '8/31 出席課題',
+          questionImg: [],
+          questionSentence:
+            '過去10年間に、奈良医大付属病院において、胃がんで腹腔鏡手術を行ったすべての患者のカルテ情報を収集し、入院時の喫煙の有無と、入院から退院までに要した日数の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。            ',
+            choices:["Case series study","Cross-sectional study","Prospective study","Retrospective (Historical) cohort study","Case control study","Randomized Controlled study","Systematic review","Descriptive epidemiologic study","ecological stidy","nested case control study"],
+          answerImg: [],
+          answer: 'Retrospectove(Historical) cohort study',
+          commentary: '後ろ向きコホート研究とは、研究する時点から過去に遡ってで０たを収集している（すでに収集されたでーたを使っている）尚且つ入院から退院まで観察したコホート研究である。Retrospective は調査項目の追加はできない（過去に存在しているカルテ情報に依存しているから）。皆さんが臨床で最初に行う可能性が高い研究。',
+        },
+        // {
+        //   detailInfo: '8/31 出席課題',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //     choices:["","","","",""],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+
                 // {
-        //   detailInfo: '6/28 出席課題',
+        //   detailInfo: '8/31 出席課題',
         //   questionImg: [],
         //   questionSentence:
         //     '',
