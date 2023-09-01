@@ -1168,7 +1168,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '8/31 出席課題',
           questionImg: [],
-          questionSentence: '過去10年間に、奈良医大付属病院において、胃がんで腹腔鏡手術を行ったすべての患者のカルテ情報を収集し、入院時の喫煙の有無と、入院から退院までに要した日数の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。            ',
+          questionSentence: '過去10年間に、奈良医大付属病院において、胃がんで腹腔鏡手術を行ったすべての患者のカルテ情報を収集し、入院時の喫煙の有無と、入院から退院までに要した日数の関連を分析した。この研究は以下のどれに分類されるか。最も適切なものを選んでください。',
           choices: ["Case series study", "Cross-sectional study", "Prospective study", "Retrospective (Historical) cohort study", "Case control study", "Randomized Controlled study", "Systematic review", "Descriptive epidemiologic study", "ecological stidy", "nested case control study"],
           answerImg: [],
           answer: 'Retrospectove(Historical) cohort study',
@@ -1191,7 +1191,7 @@ export const useQuestionList = () => {
           // choices:["","","","",""],
           answerImg: [],
           answer: '（例）I：積極的降圧療法。　対照群：通常の降圧療法',
-          commentary: 'メトフォルミンの投与を行いながら降圧療法（運動指導や、降圧薬）を行う（併用）など、治療方法を具体的に書いてあればいい。対照群には降圧療法を行わないか、通常の降圧療法で140mmHg未満を目指す治療をかく。（参考）糖尿病でない一般的な場合は、脳心血管病や腎機能悪化を予防するために130/80mmHg(75歳未満)または140/90mmHg(75歳以上)を目標として降圧薬を使用する。糖尿病の場合は腎障害が起こりやすいため、これよりさらに厳格に血圧コントロールを行う必要がある。。',
+          commentary: 'メトフォルミンの投与を行いながら降圧療法（運動指導や、降圧薬）を行う（併用）など、治療方法を具体的に書いてあればいい。対照群には降圧療法を行わないか、通常の降圧療法で140mmHg未満を目指す治療をかく。（参考）糖尿病でない一般的な場合は、脳心血管病や腎機能悪化を予防するために130/80mmHg(75歳未満)または140/90mmHg(75歳以上)を目標として降圧薬を使用する。糖尿病の場合は腎障害が起こりやすいため、これよりさらに厳格に血圧コントロールを行う必要がある。',
         },
         {
           detailInfo: '8/31 授業中',
