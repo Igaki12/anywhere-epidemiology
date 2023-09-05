@@ -1213,17 +1213,23 @@ export const useQuestionList = () => {
         //   answer: '',
         //   commentary: '',
         // },
-        // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence:
-        //     '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+
       ],
-    }, {
+    },{
+      groupTag:"UpToDate課題",
+      groupContents:[
+        {
+          detailInfo: '9/06事前学習',
+          questionImg: [],
+          questionSentence:
+            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].',
+          answerImg: [],
+          answer: '準備中',
+          commentary: '',
+        },
+      ]
+    },
+     {
       groupTag: "2019本試験",
       groupContents: [{
           detailInfo: '',
