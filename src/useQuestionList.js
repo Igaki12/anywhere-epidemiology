@@ -1203,8 +1203,18 @@ export const useQuestionList = () => {
           commentary: '何を持って治療効果を比較するか。例えば血管疾患の罹患率、総死亡率、あるいは要介護なしの健康寿命でもOK。患者さんが何を目指して治療するかを書く。糖尿病の合併症の罹患率などでもいい。とにかく疾病の結果・頻度を表すことばをかく。治療内容を書いてはいけない。もう少し見直しておくように。',
         },
 
-        // {
-        //   detailInfo: '8/31 出席課題',
+        {
+          detailInfo: '9/06 出席課題',
+          questionImg: [],
+          questionSentence:
+            'EBMとはどのような言葉の略語ですか、全て小文字で答えてください',
+            // choices:["","","","",""],
+          answerImg: [],
+          answer: 'evidence based medicine',
+          commentary: '',
+        },
+                // {
+        //   detailInfo: '9/06 出席課題',
         //   questionImg: [],
         //   questionSentence:
         //     '',
@@ -1222,25 +1232,39 @@ export const useQuestionList = () => {
           detailInfo: '9/06事前学習',
           questionImg: [],
           questionSentence:
-            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].',
+            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　高血圧を合併する糖尿病患者の、収縮期血圧および拡張期血圧のコントロール目標値はいくらですか。外来診療時に、聴診器で医師が測定した血圧値を用いる場合について答えてください',
           answerImg: [],
-          answer: '準備中',
-          commentary: '',
+          answer: '125-130mmHg/<80mmHg',
+          commentary: 'UpToDateのRecommendationが読み取れているかどうかを問うた質問。これに対しては、まず外来診察時に聴診器で測定した血圧→Routine office measurements。なので、125-130mmHg/<80mmHg。臨床に必要な治療をいかに素早く読み取れるかが大事。しっかり文献を読めば自分が担当する患者さんのQOLが向上するので、やりがいになるかも。短縮版の文献では詳細は記載されていなかったが、Standardized offce-based measurement:通常の外来診療血圧で、標準的な手順(患者さんがリラックスした状態など十分に準備を行い、定められた方法で)で測定していないと認められない（今回は該当しない）。AOBPM:Automated Office Based Pressure Measurement:血圧測定機械による3回連続測定の平均値で、医療従事者が測定中に関与しない→外来時測定に該当しない方法。日本ではトイレ後の朝と晩の2回の家庭血圧Home BPが推奨されている。外来時の血圧は緊張などにより家庭での血圧とは大きな乖離がある。海外ではAOBPMがスタンダードなので、そのまま日本で用いることはできないかもしれない。糖尿病患者の血圧設定場面はあらゆる臨床医が出会う場面であるが、それすらはっきり定まっていない。ABPM:Ambulatory Blood Pressure自由行動下血圧測定で、小型の自動血圧測定器を使って行われる血圧測定。15-30分ごとで、手間がかかる。通常の診察血圧はこれらとくらべて高い結果となるので、こういうのを見て論文の解釈をしないといけない。',
         },
-      ]
-    },
-     {
-      groupTag: "2019本試験",
-      groupContents: [{
-          detailInfo: '',
+        {
+          detailInfo: '9/06事前学習',
           questionImg: [],
-          questionSentence: '介入研究を１つ選べ',
-          choices: ["横断研究", "症例対照研究", "無作為比比較試験", "前向きコホート研究", "コホート内症例対照研究"],
+          questionSentence:
+            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　資料で引用されているACCORD研究（文献59）は、どのような２つの治療を比較した研究と記されていますか。',
           answerImg: [],
-          answer: '',
-          commentary: '',
+          answer: '収縮期血圧を120mmHg未満を目標とした治療と、収縮期血圧140mmHg未満を目標とした治療の比較',
+          commentary: '本文の通り',
         },
-        // {
+        {
+          detailInfo: '9/06事前学習',
+          questionImg: [],
+          questionSentence:
+            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　.ACCORD研究からはどのような結果が報告されたと記載されていましたか。',
+          answerImg: [],
+          answer: '脳卒中以外のリスクの低減は認められなかった。',
+          commentary: '少し英語をよく読まないと理解できないかも。ACCORD研究では脳卒中以外のリスク低減が認められなかったが、それ以外の研究ではという内容が後半に記載されている。UpToDateはしょっちゅうアップデートされる電子教科書。',
+        },
+                // {
+        //   detailInfo: '',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+                // {
         //   detailInfo: '',
         //   questionImg: [],
         //   questionSentence:
