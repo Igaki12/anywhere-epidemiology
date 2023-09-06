@@ -1255,17 +1255,54 @@ export const useQuestionList = () => {
           answer: '脳卒中以外のリスクの低減は認められなかった。',
           commentary: '少し英語をよく読まないと理解できないかも。ACCORD研究では脳卒中以外のリスク低減が認められなかったが、それ以外の研究ではという内容が後半に記載されている。UpToDateはしょっちゅうアップデートされる電子教科書。',
         },
-                // {
-        //   detailInfo: '',
-        //   questionImg: [],
-        //   questionSentence:
-        //     '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
-                // {
-        //   detailInfo: '',
+                {
+          detailInfo: '9/06 ACCORD_Introduction',
+          questionImg: [],
+          questionSentence:
+            '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　本研究が行われた目的を簡潔に答えてください。            ',
+          answerImg: [],
+          answer: '2型糖尿病を有する新血管疾患のハイリスク者において、収縮期血圧の高圧目標値を120mmHg未満とする介入が、主な新血管疾患発症に及ぼす影響を明らかにすること',
+          commentary: '',
+        },
+        {
+          detailInfo: '9/06 ACCORD_Introduction',
+          questionImg: [],
+          questionSentence:
+            '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　上記の研究目的の重要性と新規性を説明してください。',
+          answerImg: [],
+          answer: '重要性：高圧目標値を適正化することで、新血管疾患を予防できるかの末位がある。　　新規性：JNC7では130mmHg未満を推奨しているが、RCT（介入研究）による根拠が乏しい',
+          commentary: '最初の文章で糖尿病と高血圧との関係を述べている。血圧が上がったらリスクが上がるんだけど、血圧が上がれば上がるほどリスクが高まるcontinuous→下げれば下げるほどリスクが下がるのでは？という考え。JNC7という血圧治療をどうするべきかを考えている委員会が130未満を推奨しているが、それのエビデンスが少ないという部分から考える。→観察研究はある（血圧が高くなるほどリスクが高まっているという研究はあるが、介入したRCTは少ないということ）。論文のIntroductionの部分を抜粋。',
+        },
+                {
+          detailInfo: '9/06 ACCORD_Methods(1)',
+          questionImg: [],
+          questionSentence:
+            '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1',
+          answerImg: [],
+          choices:["無作為化比較試験","横断研究","前向きコホート研究","症例対象研究","システマティックレビュー"],
+          answer: '無作為化比較試験',
+          commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。被験者をランダムに２群に割り当てて、介入試験を行なっているので、RCTに該当する。',
+        },
+                {
+          detailInfo: '9/06 ACCORD_Methods(1)',
+          questionImg: [],
+          questionSentence:
+            '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　２種類の血圧介入に割り付けされた合計対象者は何人ですか',
+          answerImg: [],
+          answer: '4722人',
+          commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。最後のblood pressure trialの部分の説明',
+        },    
+        {
+  detailInfo: '9/06 ACCORD_Methods(1)',
+  questionImg: [],
+  questionSentence:
+    '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　ACCORD研究全体、the ACCORD lipid trial, the ACCORD blood pressure trialの関係を説明してください',
+  answerImg: [],
+  answer: 'まず血糖値のコントロールについて、全体約１万人が2群に分けられている。この１万人が、脂質に対する介入約5000人と、血圧に対する介入約4733人に配分され、それぞれ２群に割り当てられている',
+  commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。脂質に対する介入の研究：lipid trialと、血圧に対するblood pressure trialに割り振られているイレギュラーな研究。実際は同じ2型糖尿病でも、脂質トライアルだけに参加できる患者、血圧トライアルだけに参加できる患者、両方に参加できる患者がいて、それぞれから研究に必要な数を選んで、RCTを行っている。3つの介入が同時に走っているRCT。これら3つの因子をコントロールするので、心血管疾患リスクはだいぶん下がるのではないかと考えられる。この研究では、血糖値コントロールを厳格にすると死亡率が増加してしまった。',
+},
+                        // {
+        //   detailInfo: '9/07 ACCORD_Results',
         //   questionImg: [],
         //   questionSentence:
         //     '',
