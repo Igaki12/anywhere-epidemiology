@@ -13,6 +13,7 @@ import answer08314 from './img/answer/answer08314.png';
 import answer08313 from './img/answer/answer08313.png';
 import answer08312 from './img/answer/answer08312.png';
 import answer08311 from './img/answer/answer08311.png';
+import question0907 from './img/question/question0907.png';
 
 
 
@@ -1206,24 +1207,22 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/06 出席課題',
           questionImg: [],
-          questionSentence:
-            'EBMとはどのような言葉の略語ですか、全て小文字で答えてください',
-            // choices:["","","","",""],
+          questionSentence: 'EBMとはどのような言葉の略語ですか、全て小文字で答えてください',
+          // choices:["","","","",""],
           answerImg: [],
           answer: 'evidence based medicine',
           commentary: '',
         },
-                {
+        {
           detailInfo: '9/07 出席課題',
           questionImg: [],
-          questionSentence:
-            'Latent periodがIncubation periodより短いことは、感染流行にどのような影響を及ぼすか、説明してください。',
-            // choices:["","","","",""],
+          questionSentence: 'Latent periodがIncubation periodより短いことは、感染流行にどのような影響を及ぼすか、説明してください。',
+          // choices:["","","","",""],
           answerImg: [],
           answer: '自覚症状なしでも感染を広げてしまうので、流行しやすいし流行を抑えにくい。',
           commentary: '症状なしでも感染性があるということなので、感染を調べるにはPCRなどの検査が必要になるということ。症状だけでは当てにならない。COVID-19でも、検査キットや検査体制の不足が問題となった。',
         },
-                        // {
+        // {
         //   detailInfo: '9/07 出席課題',
         //   questionImg: [],
         //   questionSentence:
@@ -1235,14 +1234,12 @@ export const useQuestionList = () => {
         // },
 
       ],
-    },{
-      groupTag:"UpToDate課題",
-      groupContents:[
-        {
+    }, {
+      groupTag: "UpToDate課題",
+      groupContents: [{
           detailInfo: '9/06事前学習',
           questionImg: [],
-          questionSentence:
-            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　高血圧を合併する糖尿病患者の、収縮期血圧および拡張期血圧のコントロール目標値はいくらですか。外来診療時に、聴診器で医師が測定した血圧値を用いる場合について答えてください',
+          questionSentence: '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　高血圧を合併する糖尿病患者の、収縮期血圧および拡張期血圧のコントロール目標値はいくらですか。外来診療時に、聴診器で医師が測定した血圧値を用いる場合について答えてください',
           answerImg: [],
           answer: '125-130mmHg/<80mmHg',
           commentary: 'UpToDateのRecommendationが読み取れているかどうかを問うた質問。これに対しては、まず外来診察時に聴診器で測定した血圧→Routine office measurements。なので、125-130mmHg/<80mmHg。臨床に必要な治療をいかに素早く読み取れるかが大事。しっかり文献を読めば自分が担当する患者さんのQOLが向上するので、やりがいになるかも。短縮版の文献では詳細は記載されていなかったが、Standardized offce-based measurement:通常の外来診療血圧で、標準的な手順(患者さんがリラックスした状態など十分に準備を行い、定められた方法で)で測定していないと認められない（今回は該当しない）。AOBPM:Automated Office Based Pressure Measurement:血圧測定機械による3回連続測定の平均値で、医療従事者が測定中に関与しない→外来時測定に該当しない方法。日本ではトイレ後の朝と晩の2回の家庭血圧Home BPが推奨されている。外来時の血圧は緊張などにより家庭での血圧とは大きな乖離がある。海外ではAOBPMがスタンダードなので、そのまま日本で用いることはできないかもしれない。糖尿病患者の血圧設定場面はあらゆる臨床医が出会う場面であるが、それすらはっきり定まっていない。ABPM:Ambulatory Blood Pressure自由行動下血圧測定で、小型の自動血圧測定器を使って行われる血圧測定。15-30分ごとで、手間がかかる。通常の診察血圧はこれらとくらべて高い結果となるので、こういうのを見て論文の解釈をしないといけない。',
@@ -1250,8 +1247,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/06事前学習',
           questionImg: [],
-          questionSentence:
-            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　資料で引用されているACCORD研究（文献59）は、どのような２つの治療を比較した研究と記されていますか。',
+          questionSentence: '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　資料で引用されているACCORD研究（文献59）は、どのような２つの治療を比較した研究と記されていますか。',
           answerImg: [],
           answer: '収縮期血圧を120mmHg未満を目標とした治療と、収縮期血圧140mmHg未満を目標とした治療の比較',
           commentary: '本文の通り',
@@ -1259,17 +1255,15 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/06事前学習',
           questionImg: [],
-          questionSentence:
-            '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　.ACCORD研究からはどのような結果が報告されたと記載されていましたか。',
+          questionSentence: '糖尿病と高血圧の関係についての英文を読み、課題に答えよ。　　Patients with diabetes mellitus - In patients with diabetes, we suggest a goal blood pressure of 120 to 125/<80 mmHg (using the non-routine measurement methods including standardized office-based measurement, AOBPM, home blood pressure, and ABPM) or 125 to 130/<80 mmHg (using routine office measurements). These types of blood pressure measurements are defined and discussed above. Support for our recommendations comes from randomized trials, meta-analyses, and large observational studies [30-32,58-63]. The largest trial (ACCORD) was a goal blood pressure trial that found no benefit from a more intensive goal (systolic blood pressure less than 120 mmHg) as compared with a less intensive goal (systolic blood pressure less than 140 mmHg), other than a 53 percent relative reduction in the risk of stroke [59]. However, patients in ACCORD were also randomized to intensive or standard glycemic control (ie, it was a two-by-two factorial trial), and, in the standard glycemic control arm, the more intensive blood pressure group had fewer major cardiovascular events [64]. In addition to ACCORD, meta-analyses of trials suggest that, in diabetic patients, more aggressive blood pressure lowering generally reduces the risk of cardiovascular events and that, in patients whose baseline systolic pressure is <140 mmHg, further lowering of the blood pressure can prevent stroke and retinopathy [30,31].　　～中略～　　These recommendations are broadly consistent with those made by the American Diabetes Association (ADA), which suggests attaining a lower blood pressure (to a systolic of 125 to 130 mmHg) among those who can tolerate such therapy [66,67].　　.ACCORD研究からはどのような結果が報告されたと記載されていましたか。',
           answerImg: [],
           answer: '脳卒中以外のリスクの低減は認められなかった。',
           commentary: '少し英語をよく読まないと理解できないかも。ACCORD研究では脳卒中以外のリスク低減が認められなかったが、それ以外の研究ではという内容が後半に記載されている。UpToDateはしょっちゅうアップデートされる電子教科書。',
         },
-                {
+        {
           detailInfo: '9/06 ACCORD_Introduction',
           questionImg: [],
-          questionSentence:
-            '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　本研究が行われた目的を簡潔に答えてください。            ',
+          questionSentence: '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　本研究が行われた目的を簡潔に答えてください。            ',
           answerImg: [],
           answer: '2型糖尿病を有する新血管疾患のハイリスク者において、収縮期血圧の高圧目標値を120mmHg未満とする介入が、主な新血管疾患発症に及ぼす影響を明らかにすること',
           commentary: '',
@@ -1277,55 +1271,49 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/06 ACCORD_Introduction',
           questionImg: [],
-          questionSentence:
-            '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　上記の研究目的の重要性と新規性を説明してください。',
+          questionSentence: '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　　上記の研究目的の重要性と新規性を説明してください。',
           answerImg: [],
           answer: '重要性：高圧目標値を適正化することで、新血管疾患を予防できるかの末位がある。　　新規性：JNC7では130mmHg未満を推奨しているが、RCT（介入研究）による根拠が乏しい',
           commentary: '最初の文章で糖尿病と高血圧との関係を述べている。血圧が上がったらリスクが上がるんだけど、血圧が上がれば上がるほどリスクが高まるcontinuous→下げれば下げるほどリスクが下がるのでは？という考え。JNC7という血圧治療をどうするべきかを考えている委員会が130未満を推奨しているが、それのエビデンスが少ないという部分から考える。→観察研究はある（血圧が高くなるほどリスクが高まっているという研究はあるが、介入したRCTは少ないということ）。論文のIntroductionの部分を抜粋。',
         },
-                {
+        {
           detailInfo: '9/06 ACCORD_Methods(1)',
           questionImg: [],
-          questionSentence:
-            '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1',
+          questionSentence: '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1',
           answerImg: [],
-          choices:["無作為化比較試験","横断研究","前向きコホート研究","症例対象研究","システマティックレビュー"],
+          choices: ["無作為化比較試験", "横断研究", "前向きコホート研究", "症例対象研究", "システマティックレビュー"],
           answer: '無作為化比較試験',
           commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。被験者をランダムに２群に割り当てて、介入試験を行なっているので、RCTに該当する。',
         },
-                {
+        {
           detailInfo: '9/06 ACCORD_Methods(1)',
           questionImg: [],
-          questionSentence:
-            '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　２種類の血圧介入に割り付けされた合計対象者は何人ですか',
+          questionSentence: '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　２種類の血圧介入に割り付けされた合計対象者は何人ですか',
           answerImg: [],
           answer: '4722人',
           commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。最後のblood pressure trialの部分の説明',
-        },    
+        },
         {
-  detailInfo: '9/06 ACCORD_Methods(1)',
-  questionImg: [],
-  questionSentence:
-    '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　ACCORD研究全体、the ACCORD lipid trial, the ACCORD blood pressure trialの関係を説明してください',
-  answerImg: [],
-  answer: 'まず血糖値のコントロールについて、全体約１万人が2群に分けられている。この１万人が、脂質に対する介入約5000人と、血圧に対する介入約4733人に配分され、それぞれ２群に割り当てられている',
-  commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。脂質に対する介入の研究：lipid trialと、血圧に対するblood pressure trialに割り振られているイレギュラーな研究。実際は同じ2型糖尿病でも、脂質トライアルだけに参加できる患者、血圧トライアルだけに参加できる患者、両方に参加できる患者がいて、それぞれから研究に必要な数を選んで、RCTを行っている。3つの介入が同時に走っているRCT。これら3つの因子をコントロールするので、心血管疾患リスクはだいぶん下がるのではないかと考えられる。この研究では、血糖値コントロールを厳格にすると死亡率が増加してしまった。',
-},
-                        {
+          detailInfo: '9/06 ACCORD_Methods(1)',
+          questionImg: [],
+          questionSentence: '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1　　ACCORD研究全体、the ACCORD lipid trial, the ACCORD blood pressure trialの関係を説明してください',
+          answerImg: [],
+          answer: 'まず血糖値のコントロールについて、全体約１万人が2群に分けられている。この１万人が、脂質に対する介入約5000人と、血圧に対する介入約4733人に配分され、それぞれ２群に割り当てられている',
+          commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。脂質に対する介入の研究：lipid trialと、血圧に対するblood pressure trialに割り振られているイレギュラーな研究。実際は同じ2型糖尿病でも、脂質トライアルだけに参加できる患者、血圧トライアルだけに参加できる患者、両方に参加できる患者がいて、それぞれから研究に必要な数を選んで、RCTを行っている。3つの介入が同時に走っているRCT。これら3つの因子をコントロールするので、心血管疾患リスクはだいぶん下がるのではないかと考えられる。この研究では、血糖値コントロールを厳格にすると死亡率が増加してしまった。',
+        },
+        {
           detailInfo: '9/07 ACCORD_Results',
           questionImg: [],
-          questionSentence:
-            '下記の文章は研究参加者の適格基準に関する記述である。選択肢のうち、the ACOORD blood pressure studyの研究対象となる可能性がある者をすべて選んでください。　　Eligibility Criteria and RecruitmentInclusion criteria for the glycemia trial are described in detail elsewhere. In brief, participantswere eligible if they had type 2 diabetes mellitus and a glycated hemoglobin level of 7.5% or more and were 40 years of age or older with cardiovascular disease or 55 years of age or older with anatomical evidence of a substantial amount of atherosclerosis, albuminuria, left ventricular hypertrophy, or at least two additional risk factors for cardiovascular disease (dyslipidemia, hypertension, smoking, or obesity). Exclusion criteria included a body-mass index (the weight in kilograms divided by the square of the height in meters) of more than 45, a serum creatinine level of more than 1.5 mg per deciliter (132.6 μmol per liter), and other serious illness. Participants with a systolic blood pressure between 130 and 180 mm Hg who were taking three or fewer antihypertensive medications and who had the equivalent of a 24-hour protein excretion rate of less than 1.0 g were also eligible for the blood-pressure trial (see Section 4 in Supplementary Appendix 1).',
+          questionSentence: '下記の文章は研究参加者の適格基準に関する記述である。選択肢のうち、the ACOORD blood pressure studyの研究対象となる可能性がある者をすべて選んでください。　　Eligibility Criteria and RecruitmentInclusion criteria for the glycemia trial are described in detail elsewhere. In brief, participantswere eligible if they had type 2 diabetes mellitus and a glycated hemoglobin level of 7.5% or more and were 40 years of age or older with cardiovascular disease or 55 years of age or older with anatomical evidence of a substantial amount of atherosclerosis, albuminuria, left ventricular hypertrophy, or at least two additional risk factors for cardiovascular disease (dyslipidemia, hypertension, smoking, or obesity). Exclusion criteria included a body-mass index (the weight in kilograms divided by the square of the height in meters) of more than 45, a serum creatinine level of more than 1.5 mg per deciliter (132.6 μmol per liter), and other serious illness. Participants with a systolic blood pressure between 130 and 180 mm Hg who were taking three or fewer antihypertensive medications and who had the equivalent of a 24-hour protein excretion rate of less than 1.0 g were also eligible for the blood-pressure trial (see Section 4 in Supplementary Appendix 1).',
           answerImg: [],
-          choices:["20歳、収縮期血圧150mmHg, HbA1c 9.5%の１型糖尿病患者","42歳、BMI48の2型糖尿病（HbA1c 8.0％）、右冠動脈90％狭窄を認める患者","60歳で2型糖尿病（HbA1c7.8%) で、脂質異常症あり、喫煙ありの患者、1剤の降圧薬服用中で収縮期血圧140mmHg","70歳、2型糖尿病（HbA1c 9.0%)で、右頸動脈狭窄あり、降圧薬2剤服用中で収縮期血圧132mmHg, 血清クレアチニン値2.0mg/dlの患者","50歳男性、BMI30、2型糖尿病（HbA1c８％）、左室肥大を認め、収縮期血圧160mmHg、降圧薬4剤を服用中"],
+          choices: ["20歳、収縮期血圧150mmHg, HbA1c 9.5%の１型糖尿病患者", "42歳、BMI48の2型糖尿病（HbA1c 8.0％）、右冠動脈90％狭窄を認める患者", "60歳で2型糖尿病（HbA1c7.8%) で、脂質異常症あり、喫煙ありの患者、1剤の降圧薬服用中で収縮期血圧140mmHg", "70歳、2型糖尿病（HbA1c 9.0%)で、右頸動脈狭窄あり、降圧薬2剤服用中で収縮期血圧132mmHg, 血清クレアチニン値2.0mg/dlの患者", "50歳男性、BMI30、2型糖尿病（HbA1c８％）、左室肥大を認め、収縮期血圧160mmHg、降圧薬4剤を服用中"],
           answer: '３のみ',
           commentary: 'どういう人が実験に適格であったかが述べられている。be eligible :実験に適格である。atherosclerosis:動脈硬化（解剖学的な）など。inclution criteria:当てはまる条件　→　exclution criteria:除外条件。BMI４５以上、クレアチニン1.5mg以上、降圧剤を3以上すでに飲んでいる人（すでにMAXの治療を受けているという意味）、尿蛋白1日1g以上の人は、inclution criteriaに含まれていても除外される。　選択肢の(1)は年齢、1型糖尿病が不適、(2)はBMI45を超えるため不適、(3)は少なくとも2つのリスク因子を持っており、すべての項目に合致するので適格。(4)はクレアチニン値が1.5mgを超えているので除外、(5)は降圧薬を3以上飲んでいるので除外。臨床を習っていないと難しいが、inclution criteriaとexclution criteriaを分けて考えると読みやすい。',
         },
         {
           detailInfo: '9/07 ACCORD_Results',
           questionImg: [],
-          questionSentence:
-            '下記の文章を読んで、2群の介入内容をそれぞれ説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          questionSentence: '下記の文章を読んで、2群の介入内容をそれぞれ説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
           answerImg: [],
           answer: '片方の軍は収縮期血圧が120mmHgを目標血圧となるように介入する、もう片方の軍は収縮期血圧が140mmHgとなるように介入する',
           commentary: '本文の通り。',
@@ -1333,8 +1321,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/07 ACCORD_Results',
           questionImg: [],
-          questionSentence:
-            '下記の文章を読んで、割り付けの隠蔵をどのように維持したのかを説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          questionSentence: '下記の文章を読んで、割り付けの隠蔵をどのように維持したのかを説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
           answerImg: [],
           answer: 'Webサイトで自動で割り付けを行う',
           commentary: 'これ難しかったと思います。concealment(ランダム割り付けを確実にするための秘匿)とマスキング(blind/介入内容を患者さん・医師・分析者に教えないようにする)の違い。患者へのマスキングはプラセボ効果を除外するため。分析者も先入観によってバイアスが生じないようにしている。一方ランダム割り付けの際にバイアスが生じないように、割り付けをする担当者にどういった割り付けが行われているのかを隠すことがconcealmentと呼ばれる。この文章では非常にサラッと書いてあった。centrally(中心割り付け）：eligibility criteriaに当てはまるか検査を行い、ホームページに登録すると、Webサイトが割り付けを行い、その結果が本人に返ってくる仕組み。この研究ではマスキングをしていないので(nonblinded)、その場で自分の所属している群がわかる。封筒を用いると主治医に次の患者の割り付けさきがわかってしまうため、このような方法となった。システマティックレビューの話でもEBMのところでも出てきた話で、重要。',
@@ -1342,38 +1329,34 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/07 ACCORD_Results',
           questionImg: [],
-          questionSentence:
-            '下記の文章を読んで、参加者に対して、介入内容のマスキングはされていたのでしょうか？　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          questionSentence: '下記の文章を読んで、参加者に対して、介入内容のマスキングはされていたのでしょうか？　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
           answerImg: [],
-          choices:["マスキングされている","マスキングされていない"],
+          choices: ["マスキングされている", "マスキングされていない"],
           answer: 'マスキングされていない',
           commentary: '',
         },
-                                {
+        {
           detailInfo: '9/07 ACCORD_Outcomes',
           questionImg: [],
-          questionSentence:
-            '下記の文章は、本研究のアウトカムの説明である。ある患者が観察期間中の6月にうっ血性心不全で入院した。8月に心筋梗塞に罹患し、経皮的冠動脈拡張術とステント留置術が施行された。10月に左片麻痺を呈する脳梗塞に罹患、12月に心筋梗塞の再発で死亡した。主要アウトカムの発症は何月とするのが適切か答えてください。　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
+          questionSentence: '下記の文章は、本研究のアウトカムの説明である。ある患者が観察期間中の6月にうっ血性心不全で入院した。8月に心筋梗塞に罹患し、経皮的冠動脈拡張術とステント留置術が施行された。10月に左片麻痺を呈する脳梗塞に罹患、12月に心筋梗塞の再発で死亡した。主要アウトカムの発症は何月とするのが適切か答えてください。　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
           answerImg: [],
-          choices:["6月","8月","10月","12月"],
+          choices: ["6月", "8月", "10月", "12月"],
           answer: '8月',
           commentary: 'アウトカムなのでここがこの研究の一番大事なところ。特にその中で最も大事なのはこの研究のprimary outcome(主要アウトカム)。ここではprimary outcomeはcomposite(複合した) of nonfatal myocardinal infarctionなどと定義されている。composite(複合した：後述する条件の中でどれか一番最初に発生したもの）ものというのが具体性に欠けているので議論になっている。6月のうっ血性心不全は違う。8月の心筋梗塞は非致死的だったので、該当する（ここで観察を終了する）。',
         },
         {
           detailInfo: '9/07 ACCORD_Outcomes',
           questionImg: [],
-          questionSentence:
-            '2次アウトカムとして適切なものをすべて選んでください　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
+          questionSentence: '2次アウトカムとして適切なものをすべて選んでください　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
           answerImg: [],
-          choices:["非致死性心筋梗塞","非致死性脳卒中","すべての脳卒中","総死亡","心血管疾患による死亡","主要アウトカム+血管造成術 or 非致死性心不全","すべての心不全","重大な冠動脈疾患(非致死性心筋梗塞、不安定狭心症、致死的冠動脈疾患"],
+          choices: ["非致死性心筋梗塞", "非致死性脳卒中", "すべての脳卒中", "総死亡", "心血管疾患による死亡", "主要アウトカム+血管造成術 or 非致死性心不全", "すべての心不全", "重大な冠動脈疾患(非致死性心筋梗塞、不安定狭心症、致死的冠動脈疾患"],
           answer: 'すべて該当',
           commentary: '文章がややこしかったと思う。文章より結果（Table 3)の表を見た方がわかりやす買った。最近の臨床研究でcomposite outcomeが採用されている理由として、アウトカムを一つに設定しないといけないが、なんとしても結果を出さないといけない（primary outcomeが肯定されたと発表するため）というプレッシャーのもとで頻用されてしまっている。ただしこれは研究上の都合のため、読み手としては複合したアウトカムの中でどれに対して結果が出たのかを吟味しないといけなくなってきている。正しく結果の認識をするために、何をアウトカムに設定しているのかをしっかり確認しに行くことが大切。',
         },
-                                        {
+        {
           detailInfo: '9/07 ACCORD_Analysis',
           questionImg: [],
-          questionSentence:
-            '下記の文章は、主要アウトカムの分析について述べています。アウトカム発症者の割合は、どのような方法で算出されたと記載されていますか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          questionSentence: '下記の文章は、主要アウトカムの分析について述べています。アウトカム発症者の割合は、どのような方法で算出されたと記載されていますか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
           answerImg: [],
           answer: 'カプランマイヤー法',
           commentary: 'この文章で大事なのは、censoring(打ち切り）の基準。例えば非致死性の心筋梗塞をフォローアップしている時にがんで亡くなった場合、もし生存していたら心筋梗塞を発症していたかもしれない。こういった人は競合リスクによる打ち切りとして処理するのが、カプランマイヤー法。カプランマイヤー法はサバイバルアナリシスとも呼ばれ、今回の場合は0からスタートしてprimary outcome の発生に従って右上がりになるような線となる。この方法の最大の利点は、打ち切りを考慮することができるということ。アウトカムが発生した瞬間に、その瞬間の生存確率をその都度計算していくことによって、打ち切り（アウトカムや離脱）を調整している。もう一つの利点は、なんらかのモデルに当てはめた分析ではない（コックス比例ハザードモデルとは異なる）点。生存曲線のある位置時点の傾きが、ハザード：罹患率（アウトカムの発生する速度）である。',
@@ -1381,8 +1364,7 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/07 ACCORD_Analysis',
           questionImg: [],
-          questionSentence:
-          '下記の文章は、主要アウトカムの分析について述べています。血糖降下治療割り付けの影響を調整した2群の比較分析に用いた方法は何という方法ですか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          questionSentence: '下記の文章は、主要アウトカムの分析について述べています。血糖降下治療割り付けの影響を調整した2群の比較分析に用いた方法は何という方法ですか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
           answerImg: [],
           answer: 'コックス比例ハザードモデル',
           commentary: '日本語で書いたり英語で書いたり色々書き方がある。多変量解析に対応している分析方法なので、交絡因子の影響を調整をすることができる。血糖効果治療の割り付けが交絡因子になっているから、その影響を調整した。考慮するために用いた方法は、Cox models contained a term representing study group assignment plus terms accouting for the following prespecified...。コックス比例ハザードモデルで求まるのは、ハザード率(ハザード比）。このモデルが使える条件としては、このハザード比が一定であること（２群間のハザードの推移に関連が見られる場合）。カプランマイヤー法とは異なり、元々のモデルに当てはめて回帰させていっている方法。多変量解析に対応しているので、さまざまな交絡因子の調整に利用することができる。臨床では頻回に使われているので、そのとっかかりにでも役に立てれば。',
@@ -1390,43 +1372,39 @@ export const useQuestionList = () => {
         {
           detailInfo: '9/07 ACCORD_Analysis',
           questionImg: [],
-          questionSentence:
-          '下記の文章は、主要アウトカムの分析について述べています。降圧目標を達成しなかった対象者や、服薬を指示通りにしなかった対象者におけるアウトカムの発生は、分析から除外されたのか。それとも含められたのでしょうか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          questionSentence: '下記の文章は、主要アウトカムの分析について述べています。降圧目標を達成しなかった対象者や、服薬を指示通りにしなかった対象者におけるアウトカムの発生は、分析から除外されたのか。それとも含められたのでしょうか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
           answerImg: [],
-          choices:["分析から除外した","分析に含めた"],
+          choices: ["分析から除外した", "分析に含めた"],
           answer: '分析に含めた',
           commentary: '正答率が低かった。2通りの考え方があって、本当に介入が成功したかどうかを見るためなら除外した方がいいのではないか(per protocol analysis)OR何か副作用によって服薬をやめているのではないか(ITT分析)。アウトカムを過大に評価しないために、臨床ではintention to treat(ITT)分析が多数派となっている。文章中では、intention to treat principleとして記述されている。',
         },
         {
           detailInfo: '9/07 ACCORD_Analysis',
           questionImg: [],
-          questionSentence:
-          '下記の文章は、主要アウトカムの分析について述べています。問３のような分析方法を何と呼びますか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          questionSentence: '下記の文章は、主要アウトカムの分析について述べています。問３のような分析方法を何と呼びますか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
           answerImg: [],
           answer: 'ITT分析',
           commentary: 'Intention to Treat analysis。',
         },
-                                                {
+        {
           detailInfo: '9/07 ACCORD_Results1',
           questionImg: [question0907],
-          questionSentence:
-            '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。Table1をみて、当てはまる項目をすべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
+          questionSentence: '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。Table1をみて、当てはまる項目をすべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
           answerImg: [],
-          choices:["平均年齢","女性の割合","新血管疾患の既往ありの割合","喫煙者の割合","BMI","収縮期血圧","拡張期血圧","糖尿病の有病期間","総コレステロール値","LDLコレステロール値","中性脂肪","カリウム値","推定糸球体濾過量","尿中アルブミン-クレアチニン比"],
+          choices: ["平均年齢", "女性の割合", "新血管疾患の既往ありの割合", "喫煙者の割合", "BMI", "収縮期血圧", "拡張期血圧", "糖尿病の有病期間", "総コレステロール値", "LDLコレステロール値", "中性脂肪", "カリウム値", "推定糸球体濾過量", "尿中アルブミン-クレアチニン比"],
           answer: '総コレステロール値、LDLコレステロール値',
           commentary: '統計学的には２群間のコレステロール値に有意な差がある→ランダム割り当ての失敗と考えらるが、そもそも検定数が多い（1つくらい偶然有意な差がある項目が出てくる）こと、コレステロール値のこの程度の差が結果に大きな影響を及ぼすことはないだろうという考えから、今回の研究ではこの後考慮せず結果が導出されている。',
         },
         {
           detailInfo: '9/07 ACCORD_Results1',
           questionImg: [question0907],
-          questionSentence:
-            '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。以下の項目のうち、カイ二乗検定を用いて比較したと思われる項目はどれか。すべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
+          questionSentence: '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。以下の項目のうち、カイ二乗検定を用いて比較したと思われる項目はどれか。すべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
           answerImg: [],
-          choices:["平均年齢","女性の割合","新血管疾患の既往ありの割合","喫煙者の割合","BMI","収縮期血圧","拡張期血圧","糖尿病の有病期間","総コレステロール値","LDLコレステロール値","中性脂肪","カリウム値","推定糸球体濾過量","尿中アルブミン-クレアチニン比"],
+          choices: ["平均年齢", "女性の割合", "新血管疾患の既往ありの割合", "喫煙者の割合", "BMI", "収縮期血圧", "拡張期血圧", "糖尿病の有病期間", "総コレステロール値", "LDLコレステロール値", "中性脂肪", "カリウム値", "推定糸球体濾過量", "尿中アルブミン-クレアチニン比"],
           answer: '女性の割合、心血管疾患の既往ありの割合、喫煙者の割合',
           commentary: '本文もテーブル１も読まずに答えられる。カイ２乗検定とは、何かあるorないの事象が独立しているかどうかを判断する検定で、女性かどうか、既往があるかどうかといった指標に使うことができる。フィッシャーの正確性検定も当てはまるが、対象者（今回では心疾患の既往ありの割合）が少ない時にもっぱら使われる。期末試験では毎年検定方法について問題を出しているが、２群間の数字分布（yes or noではない）で正規分布していない(4分位値の分布が偏っている)場合は正規性を前提としたt検定を使えず、マンホイットニー検定などのノンパラメトリックな検定を用いる必要がある。検定自体は機械がやってくれるが、適切な検定方法の選択に関しては人間がきちんとやらないといけない。この範囲は国家試験の範囲に入ってくる。',
         },
-                                                        // {
+        // {
         //   detailInfo: '9/07 ACCORD_Results1',
         //   questionImg: [],
         //   questionSentence:
