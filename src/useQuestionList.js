@@ -1213,8 +1213,18 @@ export const useQuestionList = () => {
           answer: 'evidence based medicine',
           commentary: '',
         },
-                // {
-        //   detailInfo: '9/06 出席課題',
+                {
+          detailInfo: '9/07 出席課題',
+          questionImg: [],
+          questionSentence:
+            'Latent periodがIncubation periodより短いことは、感染流行にどのような影響を及ぼすか、説明してください。',
+            // choices:["","","","",""],
+          answerImg: [],
+          answer: '自覚症状なしでも感染を広げてしまうので、流行しやすいし流行を抑えにくい。',
+          commentary: '症状なしでも感染性があるということなので、感染を調べるにはPCRなどの検査が必要になるということ。症状だけでは当てにならない。COVID-19でも、検査キットや検査体制の不足が問題となった。',
+        },
+                        // {
+        //   detailInfo: '9/07 出席課題',
         //   questionImg: [],
         //   questionSentence:
         //     '',
