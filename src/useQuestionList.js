@@ -1336,7 +1336,7 @@ export const useQuestionList = () => {
           questionSentence:
             '下記の文章を読んで、割り付けの隠蔵をどのように維持したのかを説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
           answerImg: [],
-          answer: 'Webサイトを用いて自動で割り付けを行う',
+          answer: 'Webサイトで自動で割り付けを行う',
           commentary: 'これ難しかったと思います。concealment(ランダム割り付けを確実にするための秘匿)とマスキング(blind/介入内容を患者さん・医師・分析者に教えないようにする)の違い。患者へのマスキングはプラセボ効果を除外するため。分析者も先入観によってバイアスが生じないようにしている。一方ランダム割り付けの際にバイアスが生じないように、割り付けをする担当者にどういった割り付けが行われているのかを隠すことがconcealmentと呼ばれる。この文章では非常にサラッと書いてあった。centrally(中心割り付け）：eligibility criteriaに当てはまるか検査を行い、ホームページに登録すると、Webサイトが割り付けを行い、その結果が本人に返ってくる仕組み。この研究ではマスキングをしていないので(nonblinded)、その場で自分の所属している群がわかる。封筒を用いると主治医に次の患者の割り付けさきがわかってしまうため、このような方法となった。システマティックレビューの話でもEBMのところでも出てきた話で、重要。',
         },
         {
@@ -1345,11 +1345,89 @@ export const useQuestionList = () => {
           questionSentence:
             '下記の文章を読んで、参加者に対して、介入内容のマスキングはされていたのでしょうか？　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
           answerImg: [],
-          answer: '',
+          choices:["マスキングされている","マスキングされていない"],
+          answer: 'マスキングされていない',
           commentary: '',
         },
-                                // {
-        //   detailInfo: '9/07 ACCORD_Results',
+                                {
+          detailInfo: '9/07 ACCORD_Outcomes',
+          questionImg: [],
+          questionSentence:
+            '下記の文章は、本研究のアウトカムの説明である。ある患者が観察期間中の6月にうっ血性心不全で入院した。8月に心筋梗塞に罹患し、経皮的冠動脈拡張術とステント留置術が施行された。10月に左片麻痺を呈する脳梗塞に罹患、12月に心筋梗塞の再発で死亡した。主要アウトカムの発症は何月とするのが適切か答えてください。　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
+          answerImg: [],
+          choices:["6月","8月","10月","12月"],
+          answer: '8月',
+          commentary: 'アウトカムなのでここがこの研究の一番大事なところ。特にその中で最も大事なのはこの研究のprimary outcome(主要アウトカム)。ここではprimary outcomeはcomposite(複合した) of nonfatal myocardinal infarctionなどと定義されている。composite(複合した：後述する条件の中でどれか一番最初に発生したもの）ものというのが具体性に欠けているので議論になっている。6月のうっ血性心不全は違う。8月の心筋梗塞は非致死的だったので、該当する（ここで観察を終了する）。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Outcomes',
+          questionImg: [],
+          questionSentence:
+            '2次アウトカムとして適切なものをすべて選んでください　　Trial Outcomes　　The primary outcome for all three ACCORD trials was the first occurrence of a major cardiovascular event, which was defined as the composite of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular death. Prespecified secondary outcomes included the combination of the primary outcome plus revascularization or hospitalization for congestive heart failure (termed the “expanded macrovascular outcome”); the combination of a fatal coronary event, nonfatal myocardial infarction, or unstable angina (termed “major coronary disease events”); nonfatal myocardial infarction; fatal or nonfatal stroke; nonfatal stroke; death from any cause; death from cardiovascular causes; and hospitalization or death due to heart failure.',
+          answerImg: [],
+          choices:["非致死性心筋梗塞","非致死性脳卒中","すべての脳卒中","総死亡","心血管疾患による死亡","主要アウトカム+血管造成術 or 非致死性心不全","すべての心不全","重大な冠動脈疾患(非致死性心筋梗塞、不安定狭心症、致死的冠動脈疾患"],
+          answer: 'すべて該当',
+          commentary: '文章がややこしかったと思う。文章より結果（Table 3)の表を見た方がわかりやす買った。最近の臨床研究でcomposite outcomeが採用されている理由として、アウトカムを一つに設定しないといけないが、なんとしても結果を出さないといけない（primary outcomeが肯定されたと発表するため）というプレッシャーのもとで頻用されてしまっている。ただしこれは研究上の都合のため、読み手としては複合したアウトカムの中でどれに対して結果が出たのかを吟味しないといけなくなってきている。正しく結果の認識をするために、何をアウトカムに設定しているのかをしっかり確認しに行くことが大切。',
+        },
+                                        {
+          detailInfo: '9/07 ACCORD_Analysis',
+          questionImg: [],
+          questionSentence:
+            '下記の文章は、主要アウトカムの分析について述べています。アウトカム発症者の割合は、どのような方法で算出されたと記載されていますか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          answerImg: [],
+          answer: 'カプランマイヤー法',
+          commentary: 'この文章で大事なのは、censoring(打ち切り）の基準。例えば非致死性の心筋梗塞をフォローアップしている時にがんで亡くなった場合、もし生存していたら心筋梗塞を発症していたかもしれない。こういった人は競合リスクによる打ち切りとして処理するのが、カプランマイヤー法。カプランマイヤー法はサバイバルアナリシスとも呼ばれ、今回の場合は0からスタートしてprimary outcome の発生に従って右上がりになるような線となる。この方法の最大の利点は、打ち切りを考慮することができるということ。アウトカムが発生した瞬間に、その瞬間の生存確率をその都度計算していくことによって、打ち切り（アウトカムや離脱）を調整している。もう一つの利点は、なんらかのモデルに当てはめた分析ではない（コックス比例ハザードモデルとは異なる）点。生存曲線のある位置時点の傾きが、ハザード：罹患率（アウトカムの発生する速度）である。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Analysis',
+          questionImg: [],
+          questionSentence:
+          '下記の文章は、主要アウトカムの分析について述べています。血糖降下治療割り付けの影響を調整した2群の比較分析に用いた方法は何という方法ですか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          answerImg: [],
+          answer: 'コックス比例ハザードモデル',
+          commentary: '日本語で書いたり英語で書いたり色々書き方がある。多変量解析に対応している分析方法なので、交絡因子の影響を調整をすることができる。血糖効果治療の割り付けが交絡因子になっているから、その影響を調整した。考慮するために用いた方法は、Cox models contained a term representing study group assignment plus terms accouting for the following prespecified...。コックス比例ハザードモデルで求まるのは、ハザード率(ハザード比）。このモデルが使える条件としては、このハザード比が一定であること（２群間のハザードの推移に関連が見られる場合）。カプランマイヤー法とは異なり、元々のモデルに当てはめて回帰させていっている方法。多変量解析に対応しているので、さまざまな交絡因子の調整に利用することができる。臨床では頻回に使われているので、そのとっかかりにでも役に立てれば。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Analysis',
+          questionImg: [],
+          questionSentence:
+          '下記の文章は、主要アウトカムの分析について述べています。降圧目標を達成しなかった対象者や、服薬を指示通りにしなかった対象者におけるアウトカムの発生は、分析から除外されたのか。それとも含められたのでしょうか。　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          answerImg: [],
+          choices:["分析から除外した","分析に含めた"],
+          answer: '分析に含めた',
+          commentary: '正答率が低かった。2通りの考え方があって、本当に介入が成功したかどうかを見るためなら除外した方がいいのではないか(per protocol analysis)OR何か副作用によって服薬をやめているのではないか(ITT分析)。アウトカムを過大に評価しないために、臨床ではintention to treat(ITT)分析が多数派となっている。文章中では、intention to treat principleとして記述されている。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Analysis',
+          questionImg: [],
+          questionSentence:
+          '下記の文章は、主要アウトカムの分析について述べています。問３のような分析方法を何と呼びますか　　Analyses of primary and secondary outcomes were performed with the use of time-to-event methods according to the intention-to-treat principle. Event rates are expressed as the percentage of events per follow-up year, taking into account the censoring of follow-up data. Kaplan–Meier estimates were used to calculate the proportion of participants who had an event during follow-up. Occurrences of primary and secondary outcomes in the two study groups were compared with the use of hazard ratios and 95% confidence intervals. Two-sided P values were calculated with the use of likelihood-ratio tests from Cox proportional-hazards regression analyses. The Cox models contained a term representing study-group assignments plus terms accounting for the following prespecified stratifying variables: assignment to the intensive glucose-lowering intervention, each of the seven clinical-center networks, and the presence or absence of a previous cardiovascular event.',
+          answerImg: [],
+          answer: 'ITT分析',
+          commentary: 'Intention to Treat analysis。',
+        },
+                                                {
+          detailInfo: '9/07 ACCORD_Results1',
+          questionImg: [question0907],
+          questionSentence:
+            '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。Table1をみて、当てはまる項目をすべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
+          answerImg: [],
+          choices:["平均年齢","女性の割合","新血管疾患の既往ありの割合","喫煙者の割合","BMI","収縮期血圧","拡張期血圧","糖尿病の有病期間","総コレステロール値","LDLコレステロール値","中性脂肪","カリウム値","推定糸球体濾過量","尿中アルブミン-クレアチニン比"],
+          answer: '総コレステロール値、LDLコレステロール値',
+          commentary: '統計学的には２群間のコレステロール値に有意な差がある→ランダム割り当ての失敗と考えらるが、そもそも検定数が多い（1つくらい偶然有意な差がある項目が出てくる）こと、コレステロール値のこの程度の差が結果に大きな影響を及ぼすことはないだろうという考えから、今回の研究ではこの後考慮せず結果が導出されている。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Results1',
+          questionImg: [question0907],
+          questionSentence:
+            '1.下記はACCORD BP trialの結果に関する文章である。介入前の二群間で、有意な差がみられた項目は何か。以下の項目のうち、カイ二乗検定を用いて比較したと思われる項目はどれか。すべてえらんでください。Study Participants　　A total of 4733 participants were enrolled in the ACCORD BP trial. Of these, 2362 were randomly assigned to intensive blood-pressure control and 2371 were assigned to standard therapy. Baseline characteristics were generally similar between the two groups (Table 1). The mean age of the participants was 62.2 years; 47.7% were women and 33.7% had cardiovascular disease at baseline. The mean systolic and diastolic blood pressures of the participants at baseline were 139.2 mm Hg and 76.0 mm Hg, respectively.',
+          answerImg: [],
+          choices:["平均年齢","女性の割合","新血管疾患の既往ありの割合","喫煙者の割合","BMI","収縮期血圧","拡張期血圧","糖尿病の有病期間","総コレステロール値","LDLコレステロール値","中性脂肪","カリウム値","推定糸球体濾過量","尿中アルブミン-クレアチニン比"],
+          answer: '女性の割合、心血管疾患の既往ありの割合、喫煙者の割合',
+          commentary: '本文もテーブル１も読まずに答えられる。カイ２乗検定とは、何かあるorないの事象が独立しているかどうかを判断する検定で、女性かどうか、既往があるかどうかといった指標に使うことができる。フィッシャーの正確性検定も当てはまるが、対象者（今回では心疾患の既往ありの割合）が少ない時にもっぱら使われる。期末試験では毎年検定方法について問題を出しているが、２群間の数字分布（yes or noではない）で正規分布していない(4分位値の分布が偏っている)場合は正規性を前提としたt検定を使えず、マンホイットニー検定などのノンパラメトリックな検定を用いる必要がある。検定自体は機械がやってくれるが、適切な検定方法の選択に関しては人間がきちんとやらないといけない。この範囲は国家試験の範囲に入ってくる。',
+        },
+                                                        // {
+        //   detailInfo: '9/07 ACCORD_Results1',
         //   questionImg: [],
         //   questionSentence:
         //     '',
