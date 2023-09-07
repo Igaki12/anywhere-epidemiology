@@ -1311,7 +1311,44 @@ export const useQuestionList = () => {
   answer: 'まず血糖値のコントロールについて、全体約１万人が2群に分けられている。この１万人が、脂質に対する介入約5000人と、血圧に対する介入約4733人に配分され、それぞれ２群に割り当てられている',
   commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。脂質に対する介入の研究：lipid trialと、血圧に対するblood pressure trialに割り振られているイレギュラーな研究。実際は同じ2型糖尿病でも、脂質トライアルだけに参加できる患者、血圧トライアルだけに参加できる患者、両方に参加できる患者がいて、それぞれから研究に必要な数を選んで、RCTを行っている。3つの介入が同時に走っているRCT。これら3つの因子をコントロールするので、心血管疾患リスクはだいぶん下がるのではないかと考えられる。この研究では、血糖値コントロールを厳格にすると死亡率が増加してしまった。',
 },
-                        // {
+                        {
+          detailInfo: '9/07 ACCORD_Results',
+          questionImg: [],
+          questionSentence:
+            '下記の文章は研究参加者の適格基準に関する記述である。選択肢のうち、the ACOORD blood pressure studyの研究対象となる可能性がある者をすべて選んでください。　　Eligibility Criteria and RecruitmentInclusion criteria for the glycemia trial are described in detail elsewhere. In brief, participantswere eligible if they had type 2 diabetes mellitus and a glycated hemoglobin level of 7.5% or more and were 40 years of age or older with cardiovascular disease or 55 years of age or older with anatomical evidence of a substantial amount of atherosclerosis, albuminuria, left ventricular hypertrophy, or at least two additional risk factors for cardiovascular disease (dyslipidemia, hypertension, smoking, or obesity). Exclusion criteria included a body-mass index (the weight in kilograms divided by the square of the height in meters) of more than 45, a serum creatinine level of more than 1.5 mg per deciliter (132.6 μmol per liter), and other serious illness. Participants with a systolic blood pressure between 130 and 180 mm Hg who were taking three or fewer antihypertensive medications and who had the equivalent of a 24-hour protein excretion rate of less than 1.0 g were also eligible for the blood-pressure trial (see Section 4 in Supplementary Appendix 1).',
+          answerImg: [],
+          choices:["20歳、収縮期血圧150mmHg, HbA1c 9.5%の１型糖尿病患者","42歳、BMI48の2型糖尿病（HbA1c 8.0％）、右冠動脈90％狭窄を認める患者","60歳で2型糖尿病（HbA1c7.8%) で、脂質異常症あり、喫煙ありの患者、1剤の降圧薬服用中で収縮期血圧140mmHg","70歳、2型糖尿病（HbA1c 9.0%)で、右頸動脈狭窄あり、降圧薬2剤服用中で収縮期血圧132mmHg, 血清クレアチニン値2.0mg/dlの患者","50歳男性、BMI30、2型糖尿病（HbA1c８％）、左室肥大を認め、収縮期血圧160mmHg、降圧薬4剤を服用中"],
+          answer: '３のみ',
+          commentary: 'どういう人が実験に適格であったかが述べられている。be eligible :実験に適格である。atherosclerosis:動脈硬化（解剖学的な）など。inclution criteria:当てはまる条件　→　exclution criteria:除外条件。BMI４５以上、クレアチニン1.5mg以上、降圧剤を3以上すでに飲んでいる人（すでにMAXの治療を受けているという意味）、尿蛋白1日1g以上の人は、inclution criteriaに含まれていても除外される。　選択肢の(1)は年齢、1型糖尿病が不適、(2)はBMI45を超えるため不適、(3)は少なくとも2つのリスク因子を持っており、すべての項目に合致するので適格。(4)はクレアチニン値が1.5mgを超えているので除外、(5)は降圧薬を3以上飲んでいるので除外。臨床を習っていないと難しいが、inclution criteriaとexclution criteriaを分けて考えると読みやすい。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Results',
+          questionImg: [],
+          questionSentence:
+            '下記の文章を読んで、2群の介入内容をそれぞれ説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          answerImg: [],
+          answer: '片方の軍は収縮期血圧が120mmHgを目標血圧となるように介入する、もう片方の軍は収縮期血圧が140mmHgとなるように介入する',
+          commentary: '本文の通り。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Results',
+          questionImg: [],
+          questionSentence:
+            '下記の文章を読んで、割り付けの隠蔵をどのように維持したのかを説明してください。　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          answerImg: [],
+          answer: 'Webサイトを用いて自動で割り付けを行う',
+          commentary: 'これ難しかったと思います。concealment(ランダム割り付けを確実にするための秘匿)とマスキング(blind/介入内容を患者さん・医師・分析者に教えないようにする)の違い。患者へのマスキングはプラセボ効果を除外するため。分析者も先入観によってバイアスが生じないようにしている。一方ランダム割り付けの際にバイアスが生じないように、割り付けをする担当者にどういった割り付けが行われているのかを隠すことがconcealmentと呼ばれる。この文章では非常にサラッと書いてあった。centrally(中心割り付け）：eligibility criteriaに当てはまるか検査を行い、ホームページに登録すると、Webサイトが割り付けを行い、その結果が本人に返ってくる仕組み。この研究ではマスキングをしていないので(nonblinded)、その場で自分の所属している群がわかる。封筒を用いると主治医に次の患者の割り付けさきがわかってしまうため、このような方法となった。システマティックレビューの話でもEBMのところでも出てきた話で、重要。',
+        },
+        {
+          detailInfo: '9/07 ACCORD_Results',
+          questionImg: [],
+          questionSentence:
+            '下記の文章を読んで、参加者に対して、介入内容のマスキングはされていたのでしょうか？　　Trial Procedures　　The ACCORD BP trial was a nonblinded trial in which participants were randomly assigned to intensive therapy that targeted systolic blood pressures of less than 120 mm Hg or standard therapy that targeted systolic blood pressures of less than 140 mm Hg. Treatment strategies that are currently available in clinical practice were used to lower blood pressure. Randomization was performed centrally on the study’s Web site with the use of permuted blocks to maintain concealment of future study-group assignments.',
+          answerImg: [],
+          answer: '',
+          commentary: '',
+        },
+                                // {
         //   detailInfo: '9/07 ACCORD_Results',
         //   questionImg: [],
         //   questionSentence:
