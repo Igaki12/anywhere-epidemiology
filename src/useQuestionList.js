@@ -96,7 +96,7 @@ export const useQuestionList = () => {
           questionSentence: 'すべての医師が公衆衛生にかかわる必要があることを定めている法律は以下のどれか            ',
           choices: ['憲法', '医師法', '医療法', '地域保健法', '健康増進法'],
           answerImg: [],
-          answer: '',
+          answer: '医師法',
           commentary: '医師法第1条に定められている。',
         },
         {
@@ -770,6 +770,15 @@ export const useQuestionList = () => {
           answer: '1,3,5が正しい',
           commentary: '国民所得の1割を超えている（11%）。医療費は増え続けている。国内総生産の一割は超えていない（7.9%）。現在44兆円。財源のほぼ半分が保険料。傷病別では循環器系疾患が一番（ガンが二番目）。',
         },
+        // {
+        //   detailInfo: '6/14 出席課題',
+        //   questionImg: [],
+        //   questionSentence: '下記のうち、二次予防はどれか。すべて選べ。',
+        //   choices: ["脳卒中予防のため、減塩指導を行う", "子宮頸がん予防のため、HPVワクチンを接種する", "胃がん予防のため、胃がん健診を行う", "脳卒中後の社会復帰にむけてリハビリを行う", "胃がんを予防するために、ピロリ菌の除菌を行う"],
+        //   answerImg: [],
+        //   answer: '胃がん予防のため、胃がん健診を行う',
+        //   commentary: '',
+        // }, 
         {
           detailInfo: '6/14 出席課題',
           questionImg: [],
@@ -777,14 +786,6 @@ export const useQuestionList = () => {
           choices: ["脳卒中予防のため、減塩指導を行う", "子宮頸がん予防のため、HPVワクチンを接種する", "胃がん予防のため、胃がん健診を行う", "脳卒中後の社会復帰にむけてリハビリを行う", "胃がんを予防するために、ピロリ菌の除菌を行う"],
           answerImg: [],
           answer: '胃がん予防のため、胃がん健診を行う',
-          commentary: '',
-        }, {
-          detailInfo: '6/14 出席課題',
-          questionImg: [],
-          questionSentence: '下記のうち、二次予防はどれか。すべて選べ。',
-          choices: ["脳卒中予防のため、減塩指導を行う", "子宮頸がん予防のため、HPVワクチンを接種する", "胃がん予防のため、胃がん健診を行う", "脳卒中後の社会復帰にむけてリハビリを行う", "胃がんを予防するために、ピロリ菌の除菌を行う"],
-          answerImg: [],
-          answer: '',
           commentary: '1,2は一次予防。早期発見を目指す、健診は二次予防。リハビリなどは三次予防。骨粗鬆症や高血圧の予防目的の投薬は早期治療扱いなので、2次予防になるが、脳卒中の予防目的の投薬なら1次予防になる。',
         },
         {
@@ -1073,8 +1074,8 @@ export const useQuestionList = () => {
           questionSentence: '医療法について正しいのはどれか。すべて選べ。',
           choices: ["診療所は入院病床を有さない医療機関と定義されている", "都道府県は医療計画は５年ごとに見直す", "都道府県は基準診療所数を策定する", "都道府県知事は医療施設に立ち入り検査を実施する", "厚生労働大臣は特定機能病院を承認する"],
           answerImg: [],
-          answer: '',
-          commentary: '医療法は非常に重要。条文も読んでおくこと。19床以下であれば診療所。見直しは6年ごと。奈良医大も6年ごとに提出している。都道府県というのは、重要な疾患の医療を提供する体制を整える必要があり、基本病床数の設定によりこれをコントロールしている。診療所の解説については届出だけでOK。都道府県の知事の指示で保健所が立ち入り検査をし、安全な医療を保障している。地域医療指定病院と、特定機能病院は役割と、承認機関が異なるので注意。',
+          answer: '都道府県は基準診療所数を策定する、厚生労働大臣は特定機能病院を承認する',
+          commentary: '医療法は非常に重要。条文も読んでおくこと。19床以下であれば診療所。見直しは6年ごと。奈良医大も6年ごとに提出している。都道府県というのは、重要な疾患の医療を提供する体制を整える必要があり、基準病床数の設定によりこれをコントロールしている。診療所の解説については届出だけでOK。都道府県の知事の指示で保健所が立ち入り検査をし、安全な医療を保障している。地域医療指定病院と、特定機能病院は役割と、承認機関が異なるので注意。',
         },
         {
           detailInfo: '6/28 出席課題',
@@ -1290,7 +1291,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '下記の文章はACCORD研究のデザインについて述べた部分である。ACCORD was a randomized trial conducted at 77 clinical sites organized into seven networks in the United States and Canada (for a full list of participating institutions and investigators, see Section 1 in Supplementary Appendix 1, available with the full text of this article at NEJM.org). The trial enrolled 10,251 high-risk participants with type 2 diabetes mellitus. All participants were randomly assigned to either intensive or standard glycemic control (the ACCORD glycemia trial). In addition, 5518 of the ACCORD participants were also randomly assigned (in a 2-by-2 factorial design) to either simvastatin plus fenofibrate or simvastatin plus placebo (the ACCORD lipid trial), and the remaining 4733 participants were also randomly assigned (in a 2-by-2 factorial design) to either intensive or standard blood-pressure control (the ACCORD blood-pressure trial). Details of the randomization are provided in Section 3 of Supplementary Appendix 1.　２種類の血圧介入に割り付けされた合計対象者は何人ですか',
           answerImg: [],
-          answer: '4722人',
+          answer: '4733人',
           commentary: 'Methodsの部分では研究デザイン・研究参加者・介入内容・アウトカム・対象者数の決定方法・無作為化（RCTの場合）・マスキング・統計分析方法について記載されている。最後のblood pressure trialの部分の説明',
         },
         {
