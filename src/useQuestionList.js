@@ -1223,8 +1223,48 @@ export const useQuestionList = () => {
           answer: '自覚症状なしでも感染を広げてしまうので、流行しやすいし流行を抑えにくい。',
           commentary: '症状なしでも感染性があるということなので、感染を調べるにはPCRなどの検査が必要になるということ。症状だけでは当てにならない。COVID-19でも、検査キットや検査体制の不足が問題となった。',
         },
-        // {
-        //   detailInfo: '9/07 出席課題',
+        {
+          detailInfo: '9/13 出席課題',
+          questionImg: [],
+          questionSentence:
+            '無作為化比較試験において、必要なサンプルサイズ推計及び予定観察期間は下記のどのセクションに記載するのがもっとも適切か。',
+            choices:["Abstract","Introduction","Methods","Results","Discussions","Conclusions"],
+          answerImg: [],
+          answer: 'Methods',
+          commentary: '実際は結構間違われていることが多いので出題している。CONSORTガイドラインで何をどこに書くのかは定められている。この背景として、必要なサンプルサイズや予定の観察期間はMethods（方法）のセクションになる。実際に募集をかけるよりも前に必要な数を推計しておくことが大切。',
+        },
+        {
+          detailInfo: '9/13 出席課題',
+          questionImg: [],
+          questionSentence:
+            '無作為化比較試験において、研究参加者数は下記のどのセクションに記載するのがもっとも適切か。',
+            choices:["Abstract","Introduction","Methods","Results","Discussions","Conclusions"],
+          answerImg: [],
+          answer: 'Results',
+          commentary: 'サンプルサイズに対して、研究参加者数は実際に集まった数。必要な望ましいサンプルサイズはMethodsで計算しているが、期待分の数を揃えられるとは限らない。過去のデータを使ったレトロスペクティブなコホート研究の場合は、Methodsに研究参加者数まで記載されることもある（すでに人数は決まっているため）',
+        },
+                // {
+        //   detailInfo: '9/13 出席課題',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //     choices:["","","","",""],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+                // {
+        //   detailInfo: '9/13 出席課題',
+        //   questionImg: [],
+        //   questionSentence:
+        //     '',
+        //     choices:["","","","",""],
+        //   answerImg: [],
+        //   answer: '',
+        //   commentary: '',
+        // },
+                // {
+        //   detailInfo: '9/13 出席課題',
         //   questionImg: [],
         //   questionSentence:
         //     '',
@@ -1274,7 +1314,7 @@ export const useQuestionList = () => {
           questionImg: [],
           questionSentence: '下記はACCORD studyのIntroductionからの抜粋です。Diabetes mellitus increases the risk of cardiovascular disease by a factor of two to three at every level of systolic blood pressure. Because cardiovascular risk in patients with diabetes is graded and continuous across the entire range of levels of systolic blood pressure, even at prehypertensive levels, the Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure (JNC 7) recommended beginning drug treatment in patients with diabetes who have systolic blood pressures of 130 mm Hg or higher, with a treatment goal of reducing systolic blood pressure to below 130 mm Hg. There is, however, a paucity of evidence from randomized clinical trials to support these recommendations. The Action to Control Cardiovascular Risk in Diabetes (ACCORD) blood pressure trial (ACCORD BP) tested the effect of a target systolic blood pressure below 120 mm Hg on major cardiovascular events among high-risk persons with type 2 diabetes. We present here the main results of the ACCORD BP trial.　上記の研究目的の重要性と新規性を説明してください。',
           answerImg: [],
-          answer: '重要性：高圧目標値を適正化することで、新血管疾患を予防できるかの末位がある。　新規性：JNC7では130mmHg未満を推奨しているが、RCT（介入研究）による根拠が乏しい',
+          answer: '重要性：降圧目標値を適正化することで、心血管疾患を予防できるかの末位がある。　新規性：JNC7では130mmHg未満を推奨しているが、RCT（介入研究）による根拠が乏しい',
           commentary: '最初の文章で糖尿病と高血圧との関係を述べている。血圧が上がったらリスクが上がるんだけど、血圧が上がれば上がるほどリスクが高まるcontinuous→下げれば下げるほどリスクが下がるのでは？という考え。JNC7という血圧治療をどうするべきかを考えている委員会が130未満を推奨しているが、それのエビデンスが少ないという部分から考える。→観察研究はある（血圧が高くなるほどリスクが高まっているという研究はあるが、介入したRCTは少ないということ）。論文のIntroductionの部分を抜粋。',
         },
         {
@@ -1405,15 +1445,144 @@ export const useQuestionList = () => {
           answer: '女性の割合、心血管疾患の既往ありの割合、喫煙者の割合',
           commentary: '本文もテーブル１も読まずに答えられる。カイ２乗検定とは、何かあるorないの事象が独立しているかどうかを判断する検定で、女性かどうか、既往があるかどうかといった指標に使うことができる。フィッシャーの正確性検定も当てはまるが、対象者（今回では心疾患の既往ありの割合）が少ない時にもっぱら使われる。期末試験では毎年検定方法について問題を出しているが、２群間の数字分布（yes or noではない）で正規分布していない(4分位値の分布が偏っている)場合は正規性を前提としたt検定を使えず、マンホイットニー検定などのノンパラメトリックな検定を用いる必要がある。検定自体は機械がやってくれるが、適切な検定方法の選択に関しては人間がきちんとやらないといけない。この範囲は国家試験の範囲に入ってくる。',
         },
-        // {
-        //   detailInfo: '9/07 ACCORD_Results1',
-        //   questionImg: [],
-        //   questionSentence:
-        //     '',
-        //   answerImg: [],
-        //   answer: '',
-        //   commentary: '',
-        // },
+        {
+          detailInfo: '9/13 ACCORD_Results2',
+          questionImg: [question09131],
+          questionSentence:
+            '下記の文章はAcoord studyのresults sectionよりの抜粋である。プライマリアウトカムに関する平均追跡期間は何年か。At the end of the trial (June 2009), vital status　was known for 95.1% of the randomly assigned　participants. The mean duration of follow-up for the rate of death was 5.0 years, or 98.4% of the potential person-years of follow-up that would have been available if all surviving participants had been followed until the end of the trial. The mean duration of follow-up for the primary outcome was 4.7 years (94.8% of the potential follow up). At the final follow-up visit, the rate of current smoking was 8.5% in the intensive-therapy group and 7.5% in the standard-therapy group (P = 0.44).',
+          answerImg: [],
+          answer: '4.7',
+          commentary: '',
+        },   
+        {
+          detailInfo: '9/13 ACCORD_Results2',
+          questionImg: [question09131],
+          questionSentence:
+            '下記の文章はAcoord studyのresults sectionよりの抜粋である。プライマリアウトカムの追跡期間が、死亡をアウトカムとした追跡期間より短い理由を説明してください。　At the end of the trial (June 2009), vital status　was known for 95.1% of the randomly assigned　participants. The mean duration of follow-up for the rate of death was 5.0 years, or 98.4% of the potential person-years of follow-up that would have been available if all surviving participants had been followed until the end of the trial. The mean duration of follow-up for the primary outcome was 4.7 years (94.8% of the potential follow up). At the final follow-up visit, the rate of current smoking was 8.5% in the intensive-therapy group and 7.5% in the standard-therapy group (P = 0.44).',
+          answerImg: [],
+          answer: 'アウトカムが終了したら観察を終了する。プライマリアウトカムは死亡より早く発生するから。',
+          commentary: '1つ1つのアウトカムについて、追跡期間が違うことが論文の特徴（アウトカムが発生したら、その時点で追跡を終了するため）。その患者さんについての追跡を全てやめるのは死亡時（もう他のアウトカムが発生することがなくなるから）のみ。死亡より先にプライマリアウトカムが発生する可能性が高いため、プライマリアウトカムの追跡期間は死亡の追跡期間より短くなる。脱落については、プライマリと死亡の差に寄与することはない（平均追跡期間であるので人数は考慮しない）',
+        },    
+            {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09131],
+            questionSentence:
+              'Fig1と下記文章を読んで、各グループについて、降圧目標値が達成されているか、いつ頃までに達成したといえるかを答えてください。Blood Pressure　　The two therapeutic strategies quickly resulted in different systolic blood-pressure levels (Fig. 1). After the first year of therapy, the average systolic blood pressure at the 4-month protocol visits that both groups attended was 119.3 mm Hg (95% confidence interval [CI], 118.9 to 119.7) in the intensive-therapy group and 133.5 mm Hg (95% CI, 133.1 to 133.8) in the standard-therapy group, resulting in an average between-group difference of 14.2 mm Hg (95% CI, 13.7 to 14.7)',
+            answerImg: [],
+            answer: '割り付け後１年までに、達成されている',
+            commentary: '介入を２群に行い、介入が行われたことが確認されたことを確認されてからの経過のグラフ。文章では、118.9-119.7の範囲に最初の年で収まったので、達成されたと記述されている。標準治療群の血圧が下がり過ぎていると感じられるが、（もう少しはっきり差をつけて、結果を導き出しやすくしてほしい）これも群の平均値でグラフを作っているため。厳密にいうと、Intensive groupの血圧が安定しているのは2年後から（グラフを読むと）',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09131],
+            questionSentence:
+              'Fig1と下記文章を読んで、割り付け後6年以降において、両群の平均血圧値の95％信頼区間が広くなったのはなぜか説明してください。Blood Pressure　　The two therapeutic strategies quickly resulted in different systolic blood-pressure levels (Fig. 1). After the first year of therapy, the average systolic blood pressure at the 4-month protocol visits that both groups attended was 119.3 mm Hg (95% confidence interval [CI], 118.9 to 119.7) in the intensive-therapy group and 133.5 mm Hg (95% CI, 133.1 to 133.8) in the standard-therapy group, resulting in an average between-group difference of 14.2 mm Hg (95% CI, 13.7 to 14.7)',
+            answerImg: [],
+            answer: '観察対象者数が減少し、偶然誤差が増加したため',
+            commentary: '疫学の復習になる。エラーバーの幅が最初の期間よりも広くなっている原因は、figureのフットノートにエラーバーが95%信頼区間であることが明記されているので、観察対象者数の減少が欠けていれば正解となる。系統誤差とランダム誤差があって、対象者の数を増やすとランダムごさは小さくなる。全員の対象者を同時にインクルードしているわけではないので（徐々に対象者を増やしていった）、研究期間の最後の方でリクルートされた対象者は短い期間の追跡で止まってしまっている。もちろん、アウトカムが発生した段階で追跡が終了している影響もある。+-２SD（標準偏差）ではなく95%信頼区間を使うことで、エラーバーが小さくなっているため、本当は分布（実際のばらつき）を反映した標準偏差を用いたエラーバーで記述して欲しかった。介入がどのくらい均一に行われたかという情報がこのグラフからでは得ることができない。もしかしたらとんでもない分布になってしまっているのかも？',
+          },
+                      {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09132],
+            questionSentence:
+              '重大な副作用項目の発生頻度において、2群に有意な差がみられたのはどれか。すべて選んでください。(Table 2)',
+            choices: ["降圧剤によって発生した副作用イベント（全体）","低血圧","失神","徐脈、不整脈","高カリウム血症","血管浮腫","腎障害","末期腎不全または透析導入"],
+            answer: '',
+            commentary: '有意な差というのはP value<0.05ということ。今回のテーブルでは右端に記載されている。Serious adverse eventsの中で、どのイベントも数％未満の差であるが、有意な差として分析されている。Syncope:失神,Hypotension:低血圧。有意な差があるかと重要な差であるかどうかは別物なので、特に対象者数の数が多い場合はそんなに重要な差でない場合でも有意と判定される場合がある。ちなみに、Intensiveな介入で血圧が下がりすぎるのは理解できるが、降圧薬（利尿薬）の中にはカリウム濃度を下げる薬と上げる薬があるので、このような結果となった。低血圧という項目は本人の意思とは関係ないが、失神の項目は本人の自己申告に依存していることにも注意。血管浮腫はかなり怪しい。言われたら検査する場合は、これも自己申告に依存することになる。Discussionを読むときにキーになってくる。',
+          },
+                                {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09132],
+            questionSentence:
+              'その他の、臨床指標において有意な差をみとめたのはどれか。すべて選んでください。',
+            answerImg: [],
+            choices:["HbA1c","空腹時血糖値","LDLコレステロール","HDLコレステロール","中性脂肪","カリウム","クレアチニン","推定糸球体濾過量","微量アルブミン尿ありの割合","マクロアルブミン尿ありの割合","アルブミン・クレアチニン比"],
+            answer: 'HDLコレステロール、中性脂肪、クレアチニン、推定糸球体濾過量、マクロアルブミン尿ありの割合',
+            commentary: 'アルブミンをクレアチニンで割るのは、尿の濃さを考慮しているため。クレアチニンで標準化してから、アルブミンを測定する。微量アルブミンとマクロアルブミンの区別はカットオフによるものなのではないか。糸球体濾過量が低下する理由として、腎血流量の低下が挙げられっる。積極的高圧を行った場合は、糸球体濾過量が下がってしまった→血圧を下げ過ぎているのではないか、となる。',
+          },
+                                          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'Table3に基づいて、下記のアウトカム発生に、有意な差がみられたものをすべて選んでください。',
+            answerImg: [],
+            choices:["プライマリアウトカム","非致死的心筋梗塞","すべての脳卒中","非致死的脳卒中","総死亡","心血管疾患による死亡","プライマリアウトカム+血管形成術　または非致死的心不全","主要な冠動脈イベント","致死的および非致死的心不全"],
+            answer: 'すべての脳卒中、非致死的脳卒中',
+            commentary: '有意な差はP値を見ればわかる。2つ以外はP値が0.05以上であるため、有意な差ではない。まずこの研究の一番大事な結果',
+          },
+                                                    {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'Table3に基づいて、下記のアウトカムのハザード比の点推定値が、１より高いのはどれですか。すべて選んでください。',
+              choices:["プライマリアウトカム","非致死的心筋梗塞","すべての脳卒中","非致死的脳卒中","総死亡","心血管疾患による死亡","プライマリアウトカム+血管形成術　または非致死的心不全","主要な冠動脈イベント","致死的および非致死的心不全"],
+            answerImg: [],
+            answer: '総死亡、心血管疾患による死亡',
+            commentary: 'ハザード比の点推定値とは、95%信頼区間の手前に書かれている数字のこと。死因に関わらず死亡、心血管死亡ともに１より高い→Standardと比べてIntensiveでは7% or 6%高い(有意な差ではないが、数字としてIntensiveの方が死亡数が多かった）',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'プライマリアウトカムの相対危険減少( Relative risk reduction)は何％ですか ハザード比を用いて回答してください。',
+            answerImg: [],
+            answer: '12%',
+            commentary: '期末試験に向かって復習してほしい。5/22の講義資料に載っているRRR(早退リスク減少）とは、介入によって疾病頻度が減少した割合のことで、1-RR(相対危険)で求められる。今回の場合は、1 - 0.88 = 0.12',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              '標準的治療と積極的降圧治療を比較した場合、プライマリアウトカムの一年あたりの累積発生率の差は何％ですか。',
+            answerImg: [],
+            answer: '0.22%',
+            commentary: '一年あたりの累積発生率の差は引き算で求められる。1年あたり1.87% と 2.09%　の差。',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'プライマリアウトカムについて、１年間の標準的治療に比べた場合の積極的降圧治療によるNNTはいくらか。小数以下は四捨五入して整数で回答してください',
+            answerImg: [],
+            answer: '455',
+            commentary: '一つ前の問題が誘導。Number Needed to Treatの定義は、1人の効果を認めるまでに何人の治療が必要か？ということ。小さい治療の方が有効性が高いことに注意。ここで見られている効果の大きさをもう少し表していこう。1 / 0.0022(0.22%) = 454.5..　累積発生率はカプランマイヤー法を用いて、打ち切りれいをのぞいて、毎回毎回のイベント発生率を掛け合わせていったものである。Standard群とIntensive群の罹患率の差（寄与危険）の、逆数がNNTである。NNTは今回のような数値計算によってはっきり、「一年あたりのNNT」であることがはっきりわかる→人年あたりのNNTである場合もある。今回の場合は、1年間455人治療したら一人の差が出てくるような介入であった。累積発生率の比からでも相対危険を求めることができて、これによると0.88が0.895になる：同じような値になっているので特に考慮する必要はない。これが違っていると、例えばハザード比に用いたモデルが間違っていたのではないかというような考察ができる。',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'プライマリアウトカムのP値は0.2であるが、これは具体的にどのような事象の確率の事か説明してください',
+            answerImg: [],
+            answer: '２群の治療効果に差がないとした場合、偶然に観測された以上の差がみられる確率',
+            commentary: '帰無仮説が成立しているの中での確率。帰無仮説を棄却するにはP<0.05が必要であるが、0.20もある程度小さい値なので、これは考慮する必要がある。連続的な考え方。',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              '脳卒中（致死的および非致死的を合わせた）の相対危険減少は何％ですか ハザード比を用いて回答してください。',
+            answerImg: [],
+            answer: '41%',
+            commentary: 'プライマリアウトカムに脳卒中は含まれているが、複合アウトカムでは結果が出なかった。脳卒中に絞ると、有意な差が出た。',
+          },
+          {
+            detailInfo: '9/13 ACCORD_Results2',
+            questionImg: [question09133],
+            questionSentence:
+              'すべての脳卒中について、１年間の標準的治療に比べた場合の積極的降圧治療によるNNTはいくらか。小数以下は四捨五入して整数で回答してください',
+            answerImg: [],
+            answer: '476',
+            commentary: '脳卒中の差は有意ではあったが、その規模は小さく、それほど重要視はされない。',
+          },
+          // {
+          //   detailInfo: '9/13 ACCORD_Results2',
+          //   questionImg: [],
+          //   questionSentence:
+          //     '',
+          //   answerImg: [],
+          //   answer: '',
+          //   commentary: '',
+          // },
       ]
     },
   ])
