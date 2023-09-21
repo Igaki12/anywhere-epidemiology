@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anywhere-epidemiology/static/css/main.6180b9dc.css",
-    "main.js": "/anywhere-epidemiology/static/js/main.60e5db9b.js",
+    "main.js": "/anywhere-epidemiology/static/js/main.7e0bafb8.js",
     "static/media/titleImg.jpg": "/anywhere-epidemiology/static/media/titleImg.1eeb8355b61c05659291.jpg",
     "static/media/answer08316.png": "/anywhere-epidemiology/static/media/answer08316.74ff0345a2969b09f5b7.png",
     "static/media/question0907.png": "/anywhere-epidemiology/static/media/question0907.c11e7da556f6655a5ef2.png",
@@ -21,10 +21,10 @@
     "static/media/answer05191.png": "/anywhere-epidemiology/static/media/answer05191.5891a3ff71a681dc674f.png",
     "index.html": "/anywhere-epidemiology/index.html",
     "main.6180b9dc.css.map": "/anywhere-epidemiology/static/css/main.6180b9dc.css.map",
-    "main.60e5db9b.js.map": "/anywhere-epidemiology/static/js/main.60e5db9b.js.map"
+    "main.7e0bafb8.js.map": "/anywhere-epidemiology/static/js/main.7e0bafb8.js.map"
   },
   "entrypoints": [
     "static/css/main.6180b9dc.css",
-    "static/js/main.60e5db9b.js"
+    "static/js/main.7e0bafb8.js"
   ]
 }
